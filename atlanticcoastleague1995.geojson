@@ -1,0 +1,57 @@
+atlanticcoastleague1995 = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Gastonia King Cougars",
+		"fate": "defunct",
+		"fatetxt": "The Gastonia King Cougars folded after the 1995 season."},
+      "geometry": {
+        "coordinates": [-81.185556, 35.249167],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Spartanburg Alley Cats",
+		"fate": "defunct",
+		"fatetxt": "The Spartanburg Alley Cats folded after the 1995 season."},
+      "geometry": {
+        "coordinates": [ -81.9275, 34.946667],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Florence Flame",
+		"fate": "defunct",
+		"fatetxt": "The Florence Flame folded after the 1995 season."},
+      "geometry": {
+        "coordinates": [-84.646111, 38.991389],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Greenwood Grizzlies",
+		"fate": "defunct",
+		"fatetxt": "The Florence Flame folded after the 1995 season."},
+      "geometry": {
+        "coordinates": [ -82.161667, 34.195278],
+        "type": "Point"}
+    },
+  ]
+}

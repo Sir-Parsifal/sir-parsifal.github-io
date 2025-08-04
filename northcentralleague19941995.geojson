@@ -1,0 +1,122 @@
+northcentralleague19941995 = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1994-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Regina Cyclones",
+		"fate": "newleague", 
+		"fatetxt": "Regina Cyclones moved to the Prairie League after the 1994 season."},
+      "geometry": {
+        "coordinates": [-104.606667, 50.454722],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Brainerd Bears",
+		"fate": "defunct",
+		"fatetxt": "Brainerd Bears folded after the 1995 season."},
+      "geometry": {
+        "coordinates": [ -94.200833, 46.358056],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1994-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Minneapolis Loons",
+		"fate": "newleague",
+		"fatetxt": "Minneapolis Loons moved to the Prairie League after the 1994 season."},
+      "geometry": {
+        "coordinates": [ -93.2297, 44.9826],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1994-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Huron Heaters",
+		"fate": "defunct",
+		"fatetxt": "Huron Heaters folded after the 1994 season."},
+      "geometry": {
+        "coordinates": [-98.218056, 44.359167],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1994-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Saskatoon Riot",
+		"fate": "newleague",
+		"fatetxt": "The Saskatoon Riot moved to the Prairie League after the 1994 season."},
+      "geometry": {
+        "coordinates": [ -106.697089, 52.111273],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Minnesota Skeeters",
+		"fate": "defunct",
+		"fatetxt": "Minnesota Skeeters folded after the 1995 season."},
+      "geometry": {
+        "coordinates": [  -92.938333, 47.417222],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Chaska Valley Buccaneers",
+		"fate": "defunct",
+		"fatetxt": "The Chaska Valley Buccaneers folded after the 1995 season."},
+      "geometry": {
+        "coordinates": [ -93.616667, 44.816667],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Will County Claws",
+		"fate": "newleague",
+		"fatetxt": "The Will County Claws moved to the Heartland League after the 1995 season."},
+      "geometry": {
+        "coordinates": [  -88.058, 41.64],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1994-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Marshall Mallards",
+		"fate": "defunct",
+		"fatetxt": "Marshall Mallards folded after the 1994 season."},
+      "geometry": {
+        "coordinates": [ -95.789444, 44.448889],
+        "type": "Point"}
+    }
+  ]
+}

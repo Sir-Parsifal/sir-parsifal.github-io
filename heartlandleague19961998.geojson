@@ -1,0 +1,168 @@
+heartlandleague19961998 = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-01-01",
+		"end": "1997-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Will County Cheetahs",
+		"fate": "relocated",
+		"fatetxt": "The Will County Cheetahs moved to Cook County following the 1997 season."},
+      "geometry": {
+        "coordinates": [-88.058, 41.64],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	      "properties": {
+		"start": "1997-12-31",
+		"end": "1997-12-31",
+		"name": "Will County Cheetahs move to Cook County, IL",
+		"decoration": "arrow"
+		}, 
+    "coordinates": [[-88.058, 41.64], [-87.721389,41.626389]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-01-01",
+		"end": "1997-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Anderson Lawmen",
+		"fate": "defunct",
+		"fatetxt": "The Anderson Lawmen folded after the 1997 season."},
+      "geometry": {
+        "coordinates": [-85.688889, 40.105556],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-01-01",
+		"end": "1998-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Lafayette Leopards",
+		"fate": "defunct",
+		"fatetxt": "The Lafayette Leopards folded after the 1998 season."},
+      "geometry": {
+        "coordinates": [-86.871667, 40.411667],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-01-01",
+		"end": "1998-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Dubois County Dragons",
+		"fate": "defunct",
+		"fatetxt": "The Dubois County Dragons folded after the 1998 season."},
+      "geometry": {
+        "coordinates": [ -86.945125, 38.290294],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1997-12-31",
+		"end": "1998-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Cook County Cheetahs",
+		"fate": "newleague",
+		"fatetxt": "The Cook County Cheetahs moved to the Frontier League following the 1998 season."},
+      "geometry": {
+        "coordinates": [ -87.721389,41.626389],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1997-01-01",
+		"end": "1997-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Altoona Rail Kings",
+		"fate": "relocated",
+		"fatetxt": "The Altoona Rail Kings moved to Huntington, WV after the 1997 season."},
+      "geometry": {
+        "coordinates": [ -78.4,40.51],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1997-12-31",
+		"end": "1998-07-16",
+		"info": "",
+		"type": "team",
+		"name": "Huntington Rail Kings",
+		"fate": "defunct",
+		"fatetxt": "The Huntington Rail Kings folded midway through the 1998 season."},
+      "geometry": {
+        "coordinates": [ -82.445153, 38.41925],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	      "properties": {
+		"start": "1997-12-31",
+		"end": "1997-12-31",
+		"name": "Altoona Rail Kings moved to Huntington, WV",
+		"decoration": "arrow"
+		}, 
+    "coordinates": [[ -78.4,40.51], [ -82.445153,38.41925]]
+	},
+		{ "type": "Feature",
+      "properties": {
+		"start": "1997-01-01",
+		"end": "1997-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Clarksville Coyotes",
+		"fate": "defunct",
+		"fatetxt": "The Clarksville Coyotes folded after the 1997 season."},
+      "geometry": {
+        "coordinates": [ -87.355988,36.537442],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1997-01-01",
+		"end": "1997-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Columbia Mules",
+		"fate": "defunct",
+		"fatetxt": "The Columbia Mules folded after the 1997 season."},
+      "geometry": {
+        "coordinates": [  -87.044464,35.615022],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1997-01-01",
+		"end": "1998-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Tennessee Tomahawks",
+		"fate": "defunct",
+		"fatetxt": "The Tennessee Tomahawks folded after the 1998 season."},
+      "geometry": {
+        "coordinates": [ -86.1125,35.188333],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1998-01-01",
+		"end": "1998-06-17",
+		"info": "",
+		"type": "team",
+		"name": "Tupelo Tornado",
+		"fate": "defunct",
+		"fatetxt": "The Tupelo Tornado folded midway through the 1998 season."},
+      "geometry": {
+        "coordinates": [  -88.725833,34.259722],
+        "type": "Point"}
+    }
+  ]
+}

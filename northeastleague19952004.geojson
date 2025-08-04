@@ -1,0 +1,31 @@
+northeastleague19952004 = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "2002-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Adirondack Lumberjacks",
+		"fate": "relocated",
+		"fatetxt": "The Adirondack Lumberjacks moved to Bangor, ME after the 2002 season. "},
+      "geometry": {
+        "coordinates": [-73.627362, 43.316861],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "",
+		"end": "",
+		"info": "",
+		"type": "",
+		"name": "",
+		"fate": "",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -87.459444, 41.638889],
+        "type": "Point"}
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+midamericaleague1995 = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Anderson Lawmen",
+		"fate": "newleague",
+		"fatetxt": "The Anderson Lawmen moved to the Heartland League after the 1995 season."},
+      "geometry": {
+        "coordinates": [-85.688889, 40.105556],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "East Chicago Conquistadors", //test
+		"fate": "defunct",
+		"fatetxt": "The East Chicago Conquistadors folded after the 1995 season."},
+      "geometry": {
+        "coordinates": [ -87.459444, 41.638889],
+        "type": "Point"}
+    },	
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Lafayette Leopards",
+		"fate": "newleague",
+		"fatetxt": "The Lafayette Leopards moved to the Heartland League after the 1995 season."},	
+      "geometry": {
+        "coordinates": [-86.871667, 40.411667],
+        "type": "Point"}
+    },	
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Merrillville Muddogs",
+		"fate": "defunct",
+		"fatetxt": "The Merrillville Muddogs folded after the 1994 season."}, 
+      "geometry": {
+        "coordinates": [ -87.335278, 41.485556],
+        "type": "Point"}
+    }
+  ]
+}

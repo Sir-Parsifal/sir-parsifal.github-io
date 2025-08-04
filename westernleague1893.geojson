@@ -1,0 +1,65 @@
+westernleague1893 = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+		"start": "1893-01-01",
+		"end": "1893-06-20",
+		"name": "Kansas City Blues"
+		}, 
+      "geometry": {
+        "coordinates": [
+          -94.57858900598599,
+          39.093609620655684
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+		"start": "1893-01-01",
+		"end": "1893-06-20",
+		"name": "Lawrence Jayhawks"
+		}, 
+      "geometry": {
+        "coordinates": [
+          -95.2358125692082,
+          38.97047841793221
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+		"start": "1893-01-01",
+		"end": "1893-06-20",
+		"name": "Topeka Capitols"
+		}, 
+      "geometry": {
+        "coordinates": [
+          -95.67539540968782,
+          39.05423532446943
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+		"start": "1893-01-01",
+		"end": "1893-06-20",
+		"name": "St. Joseph Saints"
+		}, 
+      "geometry": {
+        "coordinates": [
+          -94.85008166350997,
+          39.765634418665485
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

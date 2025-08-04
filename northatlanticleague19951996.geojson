@@ -1,0 +1,96 @@
+northatlanticleague19951996 = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1996-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Nashua Hawks",
+		"fate": "defunct",
+		"fatetxt": "The Nashua Hawks folded after the 1996 season."},
+      "geometry": {
+        "coordinates": [-71.473194, 42.769086],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1996-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Welland Aqua-Ducks",
+		"fate": "defunct",
+		"fatetxt": "The Welland Aqua-Ducks folded after the 1996 season."},
+      "geometry": {
+        "coordinates": [-79.233333, 42.983333],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1996-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Newark Barge Bandits",
+		"fate": "defunct",
+		"fatetxt": "The Newark Barge Bandits folded after the 1996 season."},
+      "geometry": {
+        "coordinates": [-74.172222, 40.735556],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Niagara Falls Mallards",
+		"fate": "defunct",
+		"fatetxt": "The Niagara Falls Mallards folded after the 1995 season."},
+      "geometry": {
+        "coordinates": [-79.024948, 43.100317],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-01-01",
+		"end": "1996-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Altoona Rail Kings",
+		"fate": "newleague",
+		"fatetxt": "The Altoona Rail Kings moved to the Heartland League after the 1996 season."},
+      "geometry": {
+        "coordinates": [-78.4,40.51],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-01-01",
+		"end": "1996-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Catskill Cougars",
+		"fate": "newleague",
+		"fatetxt": "The Catskill Cougars moved to the Northeast League after the 1996 season."},
+      "geometry": {
+        "coordinates": [-74.531389,41.689444],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-01-01",
+		"end": "1996-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Massachusetts Mad Dogs",
+		"fate": "newleague",
+		"fatetxt": "The Massachusetts Mad Dogs moved to the Northeast League after the 1996 season."},
+      "geometry": {
+        "coordinates": [-70.953431,42.473678],
+        "type": "Point"}
+    }
+  ]
+}

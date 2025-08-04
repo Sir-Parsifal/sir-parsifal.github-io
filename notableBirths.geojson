@@ -1,0 +1,16 @@
+notableBirths = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "1832-09-17",
+		"end": "1832-09-17",
+		"info": "",
+		"type": "birth",
+		"eventtxt": "Nate Berkenstock, the earliest-born professional baseball player, was born on this day in Lehigh County, PA. "},
+      "geometry": {
+        "coordinates": [-75.59, 40.61],
+        "type": "Point"}
+    }
+  ]
+}

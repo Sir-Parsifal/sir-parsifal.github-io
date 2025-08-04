@@ -1,0 +1,541 @@
+midwestleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Belleville Stags", "1947", "1949"]
+						],
+			"leagues" : [
+				["Illinois State League", "1947", "1948"],
+				["Mississippi-Ohio Valley League", "1949", "1949"]
+						],
+			"coords": 	[
+				[[38.521667, -89.995278], "1947", "1949"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Centralia Cubs", "1947", "1949"],
+				["Centralia Sterlings", "1950", "1950"],
+				["Centralia Zeros", "1951", "1952"]
+						],
+			"leagues" : [
+				["Illinois State League", "1947", "1948"],
+				["Mississippi-Ohio Valley League", "1949", "1952"]
+						],
+			"coords": 	[
+				[[38.5326, -89.1221], "1947", "1952"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Marion Indians", "1947", "1948"]
+						],
+			"leagues" : [
+				["Illinois State League", "1947", "1948"]
+						],
+			"coords": 	[
+				[[37.730278, -88.930278], "1947", "1948"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Mount Vernon Blues", "1947", "1947"],
+				["Mount Vernon Braves", "1948", "1948"],
+				["Mount Vernon Kings", "1949", "1954"]
+						],
+			"leagues" : [
+				["Illinois State League", "1947", "1948"],
+				["Mississippi-Ohio Valley League", "1949", "1954"]
+						],
+			"coords": 	[
+				[[38.309444, -88.9225], "1947", "1954"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["West Frankfort Cardinals", "1947", "1950"]
+						],
+			"leagues" : [
+				["Illinois State League", "1947", "1948"],
+				["Mississippi-Ohio Valley League", "1949", "1950"]
+						],
+			"coords": 	[
+				[[37.898611, -88.923333], "1947", "1950"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Mattoon Indians", "1947", "1952"],
+				["Mattoon Phillies", "1953", "1956"],
+				["Mattoon Athletics", "1957", "1957"]
+						],
+			"leagues" : [
+				["Illinois State League", "1947", "1948"],
+				["Mississippi-Ohio Valley League", "1949", "1955"],
+				["Midwest League", "1956", "1957"],
+						],
+			"coords": 	[
+				[[39.4775, -88.362222], "1947", "1957"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Paducah Chiefs", "1949", "1955"]
+						],
+			"leagues" : [
+				["Mississippi-Ohio Valley League", "1949", "1950"],
+				["Kentucky-Illinois-Tennessee League", "1951", "1955"]
+						],
+			"coords": 	[
+				[[37.068307, -88.617849], "1949", "1955"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Springfield Browns", "1946", "1949"],
+				["Springfield Giants", "1950", "1950"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1946", "1949"],
+				["Mississippi-Ohio Valley League", "1950", "1950"]
+						],
+			"coords": 	[
+				[[39.7975, -89.645], "1946", "1950"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Paris Lakers", "1950", "1959"]
+						],
+			"leagues" : [
+				["Mississippi-Ohio Valley League", "1950", "1955"],
+				["Midwest League", "1955", "1959"],
+						],
+			"coords": 	[
+				[[39.625, -87.691667], "1950", "1959"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Vincennes Citizens", "1950", "1952-06-06"],
+				["Canton Citizens", "1952-06-07", "1952"],
+						],
+			"leagues" : [
+				["Mississippi-Ohio Valley League", "1950", "1952"]
+						],
+			"coords": 	[
+				[[38.6775, -87.501944], "1950", "1952-06-06"],
+				[[40.557778, -90.034167], "1952-06-07", "1952"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Danville Dodgers", "1946", "1950"],
+				["Danville Dans", "1951", "1954"],
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1946", "1950"],
+				["Mississippi-Ohio Valley League", "1951", "1954"]
+						],
+			"coords": 	[
+				[[40.109593, -87.631788], "1946", "1954"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Decatur Commodores", "1946", "1974"],
+				["Wausau Mets", "1975", "1978"],
+				["Wausau Timbers", "1979", "1990"],
+				["Kane County Cougars", "1991", "now"]
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1946", "1951"],
+				["Mississippi-Ohio Valley League", "1952", "1955"],
+				["Midwest League", "1956", "2020"],
+				["American Association", "2021", "now"]
+						],
+			"coords": 	[
+				[[39.861518, -88.935893], "1946", "1974"],
+				[[44.974475, -89.626585], "1975", "1990"],
+				[[41.88065, -88.281756], "1991", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Hannibal Stags", "1952", "1952"],
+				["Hannibal Cardinals", "1953", "1954"],
+				["Hannibal Citizens", "1955", "1955"]
+						],
+			"leagues" : [
+				["Mississippi-Ohio Valley League", "1952", "1955"]
+						],
+			"coords": 	[
+				[[39.705, -91.359722], "1952", "1955"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Clinton Pirates", "1954", "1958"],
+				["Clinton White Sox", "1959", "1959"],
+				["Clinton C-Sox", "1960", "1965"],
+				["Clinton Pilots", "1966", "1976"],
+				["Clinton Dodgers", "1977", "1979"],
+				["Clinton Giants", "1980", "1993"],
+				["Clinton LumberKings", "1994", "now"]
+						],
+			"leagues" : [
+				["Mississippi-Ohio Valley League", "1954", "1955"],
+				["Midwest League", "1956", "2020"],
+				["Prospect League", "2021", "now"],
+						],
+			"coords": 	[
+				[[41.849265, -90.185394], "1954", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Dubuque Packers", "1954", "1967"],
+				["Dubuque Royals", "1968", "1968"]
+						],
+			"leagues" : [
+				["Mississippi-Ohio Valley League", "1954", "1955"],
+				["Midwest League", "1956", "1968"]
+						],
+			"coords": 	[
+				[[42.499722, -90.723611], "1954", "1968"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kokomo Giants", "1955", "1955"],
+				["Kokomo Dodgers", "1956", "1961"]
+						],
+			"leagues" : [
+				["Mississippi-Ohio Valley League", "1955", "1955"],
+				["Midwest League", "1956", "1961"]
+						],
+			"coords": 	[
+				[[40.466944, -86.140278], "1955", "1961"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Lafayette Chiefs", "1955", "1955"],
+				["Lafayette Red Sox", "1956", "1957"],
+				["Waterloo Hawks", "1958", "1969"],
+				["Waterloo Royals", "1970", "1976"],
+				["Waterloo Indians", "1977", "1988"],
+				["Waterloo Diamonds", "1989", "1993"],
+				["Springfield Sultans", "1994", "1995"],
+				["Lansing Lugnuts", "1996", "now"]
+						],
+			"leagues" : [
+				["Mississippi-Ohio Valley League", "1955", "1955"],
+				["Midwest League", "1956", "now"]
+						],
+			"coords": 	[
+				[[40.412597, -86.871568], "1955", "1957"],
+				[[42.510969, -92.35355], "1958", "1993"],
+				[[39.817074, -89.6364], "1994", "1995"],
+				[[42.734722, -84.545278], "1996", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Michigan City White Caps", "1956", "1959"]
+						],
+			"leagues" : [
+				["Midwest League", "1956", "1959"]
+						],
+			"coords": 	[
+				[[41.678333, -86.862778], "1956", "1959"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Keokuk Cardinals", "1958", "1961"],
+				["Keokuk Dodgers", "1962", "1962-08-01"],
+				["Midwest Dodgers", "1962-08-02", "1962"],
+				["Wisconsin Rapids Senators", "1963", "1963"],
+				["Wisconsin Rapids Twins", "1964", "1983"],
+				["Kenosha Twins", "1984", "1992"],
+				["Fort Wayne Wizards", "1993", "2008"],
+				["Fort Wayne TinCaps", "2009", "now"]
+
+						],
+			"leagues" : [
+				["Midwest League", "1958", "now"]
+						],
+			"coords": 	[
+				[[40.408333, -91.387778], "1958", "1962-08-01"],
+				[[42.499722, -90.723611], "1962-08-02", "1962"],
+				[[44.385493, -89.820621], "1963", "1983"],
+				[[39.817074, -89.6364], "1984", "1992"],
+				[[41.114086, -85.118992], "1993", "2008"],
+				[[41.074056, -85.142861], "2009", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Fox City Foxes", "1958", "1966"],
+				["Appleton Foxes", "1967", "1994"],
+				["Wisconsin Timber Rattlers", "1995", "now"]
+
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1958", "1961"],
+				["Midwest League", "1962", "now"]
+						],
+			"coords": 	[
+				[[44.25778, -88.42972], "1958", "1994"],
+				[[44.283524, -88.468742], "1995", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Davenport Braves", "1960", "1960"],
+				["Quad City Braves", "1961", "1961"],
+				["Quad City Angels", "1962", "1978"],
+				["Quad City Cubs", "1979", "1984"],
+				["Quad City Angels", "1985", "1991"],
+				["Quad City River Bandits", "1992", "2003"],
+				["Swing of the Quad Cities", "2004", "2007"],
+				["Quad City River Bandits", "2008", "now"],
+						],
+			"leagues" : [
+				["Midwest League", "1960", "now"]
+						],
+			"coords": 	[
+				[[41.518669, -90.582242], "1960", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Quincy Giants", "1960", "1961"],
+				["Quincy Jets", "1962", "1963"],
+				["Quincy Gems", "1964", "1964"],
+				["Quincy Cubs", "1965", "1973"],
+				["Dubuque Packers", "1974", "1976"]
+						],
+			"leagues" : [
+				["Midwest League", "1960", "1976"]
+						],
+			"coords": 	[
+				[[39.947517, -91.386253], "1960", "1973"],
+				[[42.499722, -90.723611], "1974", "1976"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Burlington Flints", "1952", "1953"],
+				["Burlington Bees", "1954", "1981"],
+				["Burlington Rangers", "1982", "1985"],
+				["Burlington Expos", "1986", "1987"],
+				["Burlington Braves", "1988", "1990"],
+				["Burlington Astros", "1991", "1992"],
+				["Burlington Bees", "1993", "now"]
+						],
+			"leagues" : [
+				["Illinois-Indiana-Iowa League", "1952", "1961"],
+				["Midwest League", "1962", "2020"],
+				["Prospect League", "2021", "now"]
+						],
+			"coords": 	[
+				[[40.827555, -91.136903], "1952", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Cedar Rapids Rockets", "1949", "1949"],
+				["Cedar Rapids Indians", "1950", "1952"],
+				["Cedar Rapids Raiders", "1953", "1957"],
+				["Cedar Rapids Red Raiders", "1958", "1962"],
+				["Cedar Rapids Cardinals", "1963", "1972"],
+				["Cedar Rapids Astros", "1973", "1974"],
+				["Cedar Rapids Giants", "1975", "1979"],
+				["Cedar Rapids Reds", "1980", "1993"],
+				["Cedar Rapids Kernels", "1993", "now"]
+						],
+			"leagues" : [
+				["Central Association", "1949", "1949"],
+				["Illinois-Indiana-Iowa League", "1950", "1961"],
+				["Midwest League", "1962", "now"]
+						],
+			"coords": 	[
+				[[41.968056, -91.686389], "1949", "2001"],
+				[[41.968056, -91.686389], "2002", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Danville Warriors", "1970", "1974"],
+				["Danville Dodgers", "1975", "1976"]
+						],
+			"leagues" : [
+				["Midwest League", "1970", "1976"]
+						],
+			"coords": 	[
+				[[40.109593, -87.631788], "1970", "1976"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Danville Suns", "1982", "1982"],
+				["Peoria Suns", "1983", "1983"],
+				["Peoria Chiefs", "1984", "now"],
+						],
+			"leagues" : [
+				["Midwest League", "1982", "now"]
+						],
+			"coords": 	[
+				[[40.109593, -87.631788], "1982", "1982"],
+				[[40.709722, -89.618333], "1983", "2001"],
+				[[40.6875, -89.5975], "2002", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Beloit Brewers", "1982", "1994"],
+				["Beloit Snappers", "1995", "2021"],
+				["Beloit Sky Carp", "2022", "now"]
+						],
+			"leagues" : [
+				["Midwest League", "1982", "now"]
+						],
+			"coords": 	[
+				[[42.53539, -89.007947], "1982", "2021-08-02"],
+				[[42.497639, -89.040083], "2021-08-03", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Madison Muskies", "1982", "1993"],
+				["West Michigan Whitecaps", "1994", "now"]
+						],
+			"leagues" : [
+				["Midwest League", "1982", "now"]
+						],
+			"coords": 	[
+				[[43.131111, -89.366944], "1982", "1993"],
+				[[43.040195, -85.659832], "1994", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Springfield Cardinals", "1982", "1993"],
+				["Madison Hatters", "1994", "1994"],
+				["Michigan Battle Cats", "1994", "2002"],
+				["Battle Creek Yankees", "2003", "2004"],
+				["Southwest Michigan Devil Rays", "2005", "2006"],
+				["Great Lakes Loons", "2007", "now"],
+						],
+			"leagues" : [
+				["Midwest League", "1982", "now"]
+						],
+			"coords": 	[
+				[[39.817074, -89.6364], "1982", "1993"],
+				[[43.131111, -89.366944], "1994", "1994"],
+				[[42.312222, -85.204167], "1994", "2006"],
+				[[43.609169, -84.236703], "2007", "now"],
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["South Bend White Sox", "1988", "1993"],
+				["South Bend Silver Hawks", "1994", "2014"],
+				["South Bend Cubs", "2015", "now"],
+						],
+			"leagues" : [
+				["Midwest League", "1988", "now"]
+						],
+			"coords": 	[
+				[[41.670394, -86.255478], "1988", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rockford Expos", "1988", "1992"],
+				["Rockford Royals", "1993", "1994"],
+				["Rockford Cubbies", "1995", "1998"],
+				["Rockford Reds", "1999", "1999"],
+				["Dayton Dragons", "2000", "now"],
+						],
+			"leagues" : [
+				["Midwest League", "1988", "now"]
+						],
+			"coords": 	[
+				[[42.249555, -89.100924], "1988", "1999"],
+				[[39.764167, -84.185], "2000", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Wilmington Waves", "2001", "2001"],
+				["South Georgia Waves", "2002", "2003"],
+				["Columbus Catfish", "2004", "2008"],
+				["Bowling Green Hot Rods", "2009", "now"]
+						],
+			"leagues" : [
+				["South Atlantic League", "2001", "2009"],
+				["Midwest League", "2010", "2020"],
+				["South Atlantic League", "2021", "now"]
+						],
+			"coords": 	[
+				[[34.221942, -77.873301], "2001", "2001"],
+				[[31.600944, -84.129878], "2002", "2002"],
+				[[32.452348, -84.991541], "2003", "2008"],
+				[[36.996778, -86.440906], "2009", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Columbus Indians", "1991", "1991"],
+				["Columbus RedStixx", "1992", "2002"],
+				["Lake County Captains", "2003", "now"]
+						],
+			"leagues" : [
+				["South Atlantic League", "1991", "2009"],
+				["Midwest League", "2010", "now"]
+						],
+			"coords": 	[
+				[[32.452348, -84.991541], "1991", "2002"],
+				[[41.641111, -81.435556], "2003", "now"]
+						]
+		}
+	]
+}
+	

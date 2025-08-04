@@ -1,0 +1,83 @@
+southcoastleague2007 = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "2007-01-01",
+		"end": "2007-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Charlotte County Redfish",
+		"fate": "defunct",
+		"fatetxt": "The Charlotte County Redfish folded after the 2007 season."},
+      "geometry": {
+        "coordinates": [-82.181667, 26.999167],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2007-01-01",
+		"end": "2007-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Anderson Joes",
+		"fate": "defunct",
+		"fatetxt": "The Anderson Joes folded after the 2007 season."},
+      "geometry": {
+        "coordinates": [-82.628619, 34.482759],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2007-01-01",
+		"end": "2007-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Aiken Foxhounds",
+		"fate": "defunct",
+		"fatetxt": "The Aiken Foxhounds folded after the 2007 season."},
+      "geometry": {
+        "coordinates": [ -81.776197, 33.574958],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2007-01-01",
+		"end": "2007-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Bradenton Juice",
+		"fate": "defunct",
+		"fatetxt": "The Bradenton Juice folded after the 2007 season."},
+      "geometry": {
+        "coordinates": [-82.594421, 27.439069],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2007-01-01",
+		"end": "2007-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Macon Music",
+		"fate": "defunct",
+		"fatetxt": "The Macon Music folded after the 2007 season."},
+      "geometry": {
+        "coordinates": [-83.614167, 32.828889],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2007-01-01",
+		"end": "2007-12-31",
+		"info": "",
+		"type": "team",
+		"name": "South Georgia Peanuts",
+		"fate": "defunct",
+		"fatetxt": "The South Georgia Peanuts folded after the 2007 season."},
+      "geometry": {
+        "coordinates": [-84.129878, 31.600944],
+        "type": "Point"}
+    }
+  ]
+}

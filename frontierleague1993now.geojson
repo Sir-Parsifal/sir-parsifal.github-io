@@ -1,0 +1,770 @@
+frontierleague1993now = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "2008-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Chillicothe Paints",
+		"fate": "newleague",
+		"fatetxt": "The Chillicothe Paints moved to the Prospect League after the 2008 season."},
+      "geometry": {
+        "coordinates": [ -82.995, 39.339444],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "1994-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Kentucky Rifles",
+		"fate": "defunct",
+		"fatetxt": "The Kentucky Rifles folded after the 1994 season"},
+      "geometry": {
+        "coordinates": [ -82.524167, 37.476944],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "1994-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Kentucky Rifles",
+		"fate": "defunct",
+		"fatetxt": "The Kentucky Rifles folded after the 1994 season"},
+      "geometry": {
+        "coordinates": [ -82.806667, 37.811389],
+        "type": "Point"}
+    },
+	{
+	    "type": "LineString",
+	      "properties": {
+		"start": "1993-01-01",
+		"end": "1994-12-31",
+		"name": "The Kentucky Rifles split their season between Paintsville, KY and Pikesville, KY. ",
+		"decoration": ""
+		}, 
+    "coordinates": [[ -82.524167, 37.476944], [-82.806667, 37.811389]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "1993-07-15",
+		"info": "",
+		"type": "team",
+		"name": "West Virginia Coal Sox",
+		"fate": "defunct",
+		"fatetxt": "The West Virginia Coal Sox folded a few weeks into the 1993 season"},
+      "geometry": {
+        "coordinates": [ -82.440556, 38.228333],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "1993-07-15",
+		"info": "",
+		"type": "team",
+		"name": "Tri-State Tomahawks",
+		"fate": "defunct",
+		"fatetxt": "The Tri-State Tomahawks folded a few weeks into the 1993 season"},
+      "geometry": {
+        "coordinates": [  -82.702778, 38.388611],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "1994-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Lancaster Scouts",
+		"fate": "relocated",
+		"fatetxt": "The Lancaster Scouts moved to Evansville, IN after the 1994 season"},
+      "geometry": {
+        "coordinates": [  -82.606944, 39.743056],
+        "type": "Point"}
+    },
+		{
+    "type": "LineString",
+	      "properties": {
+		"start": "1994-12-31",
+		"end": "1994-12-31",
+		"name": "Lancaster Scouts move to Evansville, IN",
+		"decoration": "arrow"
+		}, 
+    "coordinates": [[ -82.606944, 39.743056], [-87.562222,37.992778]]
+	},	
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-12-31",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Evansville Otters",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -87.562222,37.992778],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "1998-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Ohio Valley Redcoats",
+		"fate": "relocated",
+		"fatetxt": "The Ohio Valley Redcoats moved to Huntingburg, IN after the 1998 season. "},
+      "geometry": {
+        "coordinates": [  -81.542222,39.266111],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	      "properties": {
+		"start": "1998-12-31",
+		"end": "1998-12-31",
+		"name": "Ohio Valley Redcoats move to Huntingburg, IN",
+		"decoration": "arrow"
+		}, 
+    "coordinates": [[ -81.542222,39.266111], [-86.945125, 38.290294]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1999-01-01",
+		"end": "2002-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Dubois County Dragons",
+		"fate": "relocated",
+		"fatetxt": "The Dubois County Dragons moved to Kenosha, WI after the 2002 season. "},
+      "geometry": {
+        "coordinates": [  -86.945125, 38.290294],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	      "properties": {
+		"start": "2002-12-31",
+		"end": "2002-12-31",
+		"name": "Dubois County Dragons move to Kenosha, WI",
+		"decoration": "arrow"
+	}, 
+    "coordinates": [[  -86.945125, 38.290294], [-87.824686, 42.561963]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "2002-12-31",
+		"end": "2003-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Kenosha Mammoths",
+		"fate": "relocated",
+		"fatetxt": "The Kenosha Mammoths moved to Ozark, MO after the 2003 season. "},
+      "geometry": {
+        "coordinates": [-87.824686, 42.561963],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	      "properties": {
+		"start": "2003-12-31",
+		"end": "2003-12-31",
+		"name": "Kenosha Mammoths move to Ozark, MO. ",
+		"decoration": "arrow"
+	}, 
+    "coordinates": [[-87.824686, 42.561963], [-93.22601, 37.06042]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "2002-12-31",
+		"end": "2004-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Springfield/Ozark Ducks",
+		"fate": "relocated",
+		"fatetxt": "The Springfield/Ozark Ducks became the transient Ohio Valley Redcoats after the 2004 season. "},
+      "geometry": {
+        "coordinates": [-93.22601, 37.06042],
+        "type": "Point"}
+    },
+	//ok do something to represent the ohio valley redcoats I dunno
+	
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Portsmouth Explorers",
+		"fate": "relocated",
+		"fatetxt": "The Portsmouth Explorers moved to Springfield, IL after the 1995 season. "},
+      "geometry": {
+        "coordinates": [  -82.944444,38.739444],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	    "properties": {
+		"start": "1995-12-31",
+		"end": "1995-12-31",
+		"name": "Portsmouth Explorers move to Springfield, IL ",
+		"decoration": "arrow"
+		}, 
+		"coordinates": [[  -82.944444,38.739444], [-89.6364,39.817074]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-12-31",
+		"end": "2001-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Springfield Capitals",
+		"fate": "relocated",
+		"fatetxt": "The Springfield Capitals moved to Rockford, IL after the 2001 season. "},
+      "geometry": {
+        "coordinates": [ -89.6364,39.817074],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	    "properties": {
+		"start": "2001-12-31",
+		"end": "2001-12-31",
+		"name": "Springfield Capitals move to Rockford, IL",
+		"decoration": "arrow"
+		}, 
+		"coordinates": [[  -89.6364,39.817074], [-88.955, 42.324167]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "2001-12-31",
+		"end": "2009-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Rockford RiverHawks",
+		"fate": "newleague",
+		"fatetxt": "The Rockford RiverHawks moved to the Northern League after the 2009 season. "},
+      "geometry": {
+        "coordinates": [  -88.955, 42.324167],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2011-01-01",
+		"end": "2012-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Rockford RiverHawks",
+		"fate": "rebrand",
+		"fatetxt": "The Rockford RiverHawks rebranded to the Rockford Aviators after the 2012 season. "},
+      "geometry": {
+        "coordinates": [  -88.955, 42.324167],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2012-01-01",
+		"end": "2015-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Rockford Aviators",
+		"fate": "defunct",
+		"fatetxt": "The Rockford Aviators folded after the 2015 season. "},
+      "geometry": {
+        "coordinates": [  -88.955, 42.324167],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1994-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Erie Sailors",
+		"fate": "relocated",
+		"fatetxt": "The Erie Sailors moved to Johnstown, PA after the 1994 season. "},
+      "geometry": {
+        "coordinates": [ -80.1023, 42.104],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	    "properties": {
+		"start": "1994-12-31",
+		"end": "1994-12-31",
+		"name": "Erie Sailors moved to Johnstown, PA",
+		"decoration": "arrow"
+		}, 
+		"coordinates": [[  -80.1023, 42.104], [-78.925, 40.329]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-12-31",
+		"end": "1998-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Johnstown Steal",
+		"fate": "rebrand",
+		"fatetxt": "The Johnstown Steal rebranded to the Johnstown Johnnies after the 1998 season. "},
+      "geometry": {
+        "coordinates": [-78.925, 40.329],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1999-01-01",
+		"end": "2002-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Johnstown Johnnies",
+		"fate": "relocated",
+		"fatetxt": "The Johnstown Johnnies moved to Florence, KY after the 2002 season. "},
+      "geometry": {
+        "coordinates": [  -78.925, 40.329],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	    "properties": {
+		"start": "2002-12-31",
+		"end": "2002-12-31",
+		"name": "Johnstown Johnnies moved to Florence, KY ",
+		"decoration": "arrow"
+		}, 
+		"coordinates": [[ -78.925, 40.329], [-84.646111, 38.991389]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "2002-12-31",
+		"end": "2019-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Florence Freedom",
+		"fate": "rebrand",
+		"fatetxt": "The Florence Freedom rebranded to the Florence Y'Alls after the 2019 season. "},
+      "geometry": {
+        "coordinates": [  -84.646111, 38.991389],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2020-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Florence Y'alls",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [  -84.646111, 38.991389],
+        "type": "Point"}
+    },
+	
+	
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "1996-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Zanesville Greys",
+		"fate": "relocated",
+		"fatetxt": "The Zanesville Greys moved to O'Fallon, MO after the 1996 season. "},
+      "geometry": {
+        "coordinates": [-82.013333,39.959444],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	    "properties": {
+		"start": "1996-12-31",
+		"end": "1996-12-31",
+		"name": "Zanesville Grays moved to O'Fallon, MO",
+		"decoration": "arrow"
+		}, 
+		"coordinates": [[-82.013333,39.959444], [-90.680337,38.820518]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-12-31",
+		"end": "2019-12-31",
+		"info": "",
+		"type": "team",
+		"name": "River City Rascals",
+		"fate": "defunct",
+		"fatetxt": "The River City Rascals folded after the 2019 season. "},
+      "geometry": {
+        "coordinates": [ -90.680337,38.820518],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1994-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Newark Buffalos",
+		"fate": "rebrand",
+		"fatetxt": "The Newark Buffalos rebranded to the Newark Bison after the 1994 season. "},
+      "geometry": {
+        "coordinates": [ -82.383633, 40.054112],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Newark Bison",
+		"fate": "relocated",
+		"fatetxt": "The Newark Bison moved to Kalamazoo, MI after the 1995 season. "},
+      "geometry": {
+        "coordinates": [ -82.383633, 40.054112],
+        "type": "Point"}
+    },
+		{
+    "type": "LineString",
+	    "properties": {
+		"start": "1995-12-31",
+		"end": "1995-12-31",
+		"name": "Newark Bison moved to Kalamazoo, MI",
+		"decoration": "arrow"
+		}, 
+		"coordinates": [[-82.383633, 40.054112], [ -85.5625,42.290278]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-12-31",
+		"end": "1998-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Kalamzoo Kodiaks",
+		"fate": "relocated",
+		"fatetxt": "The Kalamazoo Kodiaks moved to London, ON after the 1998 season. "},
+      "geometry": {
+        "coordinates": [ -85.5625,42.290278],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	    "properties": {
+		"start": "1998-12-31",
+		"end": "1998-12-31",
+		"name": "Kalamazoo Kodiaks moved to London, ON",
+		"decoration": "arrow"
+		}, 
+		"coordinates": [[-85.5625,42.290278], [ -81.258667, 42.983611]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1998-12-31",
+		"end": "2001-12-31",
+		"info": "",
+		"type": "team",
+		"name": "London Werewolves",
+		"fate": "relocated",
+		"fatetxt": "The London Werewolves moved to Canton, OH after the 2001 season. "},
+      "geometry": {
+        "coordinates": [ -81.258667, 42.983611],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	    "properties": {
+		"start": "2001-12-31",
+		"end": "2001-12-31",
+		"name": "London Werewolves moved to Canton, OH",
+		"decoration": "arrow"
+		}, 
+		"coordinates": [[ -81.258667, 42.983611], [ -81.382819, 40.771653]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "2001-12-31",
+		"end": "2002-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Canton Coyotes",
+		"fate": "relocated",
+		"fatetxt": "The Canton Coyotes moved to Columbia, MO after the 2002 season. "},
+      "geometry": {
+        "coordinates": [  -81.382819, 40.771653],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	    "properties": {
+		"start": "2002-12-31",
+		"end": "2002-12-31",
+		"name": "Canton Coyotes moved to Columbia, MO",
+		"decoration": "arrow"
+		}, 
+		"coordinates": [[ -81.382819, 40.771653], [ -92.3386, 38.93557]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "2002-12-31",
+		"end": "2005-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Mid-Missouri Mavericks",
+		"fate": "defunct",
+		"fatetxt": "The Mid-Missouri Mavericks folded after the 2005 season. "},
+      "geometry": {
+        "coordinates": [ -92.3386, 38.93557],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "2005-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Richmond Roosters",
+		"fate": "relocated",
+		"fatetxt": "The Richmond Roosters moved to Traverse City, MI after the 2005 season. "},
+      "geometry": {
+        "coordinates": [  -84.9198, 39.8321],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	    "properties": {
+		"start": "2005-12-31",
+		"end": "2005-12-31",
+		"name": "Richmond Roosters moved to Traverse City, MI",
+		"decoration": "arrow"
+		}, 
+		"coordinates": [[  -84.9198, 39.8321], [ -85.660615, 44.68173]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "2005-12-31",
+		"end": "2018-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Traverse City Beach Bums",
+		"fate": "defunct",
+		"fatetxt": "The Traverse City Beach Bums folded after the 2018 season. "},
+      "geometry": {
+        "coordinates": [ -85.660615, 44.68173],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1997-01-01",
+		"end": "2001-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Canton Crocodiles",
+		"fate": "relocated",
+		"fatetxt": "The Canton Crocodiles moved to Washington, PA after the 2001 season. "},
+      "geometry": {
+        "coordinates": [-81.382819, 40.771653],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	    "properties": {
+		"start": "2001-12-31",
+		"end": "2001-12-31",
+		"name": "Canton Crocodiles moved to Washington, PA",
+		"decoration": "arrow"
+		}, 
+		"coordinates": [[ -81.382819, 40.771653], [-80.283611, 40.154167]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "2001-12-31",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Washington Wild Things",
+		"fate": "exists",
+		"fatetxt": " "},
+      "geometry": {
+        "coordinates": [-80.283611, 40.154167],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1999-01-01",
+		"end": "2003-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Cook County Cheetahs",
+		"fate": "rebrand",
+		"fatetxt": "The Cook County Cheetahs rebranded to the Windy City Thunderbolts after the 2003 season."},
+      "geometry": {
+        "coordinates": [ -87.721389,41.626389],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2004-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Windy City Thunderbolts",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -87.721389,41.626389], //technically they were in a different park so fix this later lmao
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2001-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Gateway Grizzlies",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -90.135833,38.566111], //technically they were in a different park for some of this so fix this later lmao
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2001-01-01",
+		"end": "2010-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Kalamazoo Kings",
+		"fate": "defunct",
+		"fatetxt": "The Kalamazoo Kings folded after the 2010 season. "},
+      "geometry": {
+        "coordinates": [ -85.5625,42.290278], 
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2007-01-01",
+		"end": "2021-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Southern Illinois Miners",
+		"fate": "defunct",
+		"fatetxt": "The Southern Illinois Miners folded after the 2021 season. "},
+      "geometry": {
+        "coordinates": [-88.960397,37.745964], 
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2007-01-01",
+		"end": "2007-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Slippery Rock Sliders",
+		"fate": "relocated",
+		"fatetxt": "The Slippery Rock Sliders became a travelling team after the 2007 season. "}, //i have no idea how to represent this so I'm just not gonna for the moment
+      "geometry": {
+        "coordinates": [ -80.0385,41.0609], 
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2009-01-01",
+		"end": "2009-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Midwest Sliders of Ypsilanti",
+		"fate": "rebrand",
+		"fatetxt": "The Midwest Sliders of Ypsilanti rebranded to the Oakland County Cruisers after the 2009 season. "},
+      "geometry": {
+        "coordinates": [ -83.648079,42.257809], 
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2010-01-01",
+		"end": "2010-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Oakland County Cruisers",
+		"fate": "defunct",
+		"fatetxt": "The Oakland County Cruisers folded after the 2009 season. "},
+      "geometry": {
+        "coordinates": [ -83.648079,42.257809], 
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2009-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Lake Erie Crushers",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -82.061389,41.459722], 
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2010-01-01",
+		"end": "2018-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Normal CornBelters",
+		"fate": "newleague",
+		"fatetxt": "The Normal CornBelters moved to the Prospect League after the 2018 season. "},
+      "geometry": {
+        "coordinates": [ -89.004148,40.534251], 
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2011-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Joliet Slammers",
+		"fate": "exists",
+		"fatetxt": " "},
+      "geometry": {
+        "coordinates": [ -88.0779,41.525711], 
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2012-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Schaumburg Boomers",
+		"fate": "exists",
+		"fatetxt": " "},
+      "geometry": {
+        "coordinates": [ -88.118089,41.992828], 
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2012-01-01",
+		"end": "2012-07-25",
+		"info": "",
+		"type": "team",
+		"name": "London Rippers",
+		"fate": "defunct",
+		"fatetxt": "The London Rippers folded midway through the 2012 season. "},
+      "geometry": {
+        "coordinates": [ -81.258667, 42.983611], 
+        "type": "Point"}
+    }
+	//there's a travelling team I don't know how to represent; the Frontier Greys
+  ]
+}
+
+

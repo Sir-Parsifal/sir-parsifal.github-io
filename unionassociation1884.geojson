@@ -1,0 +1,210 @@
+unionassociation1884 = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+		"start": "1884-01-01",
+		"end": "1884-5-31",
+		"name": "Altoona Mountain Cities"
+		}, 
+      "geometry": {
+        "coordinates": [
+		  -78.401443,
+          40.516399 
+        ],
+        "type": "Point"
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"start": "1884-06-07",
+		"end": "1884-12-31",
+		"name": "Kansas City Cowboys"
+		}, 
+      "geometry": {
+        "coordinates": [
+			-94.578333,
+			39.099722			
+        ],
+        "type": "Point"
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"start": "1884-01-01",
+		"end": "1884-08-07",
+		"name": "Philadelphia Keystones"
+		}, 
+      "geometry": {
+        "coordinates": [
+			 -75.163611,
+			39.952778			
+        ],
+        "type": "Point"
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"start": "1884-08-18",
+		"end": "1884-09-15",
+		"name": "Wilmington Quicksteps"
+		}, 
+      "geometry": {
+        "coordinates": [
+			  -75.546667,
+			39.745833			
+        ],
+        "type": "Point"
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"start": "1884-01-01",
+		"end": "1884-08-21",
+		"name": "Chicago Browns"
+		}, 
+      "geometry": {
+        "coordinates": [
+			-87.627778,
+			41.881944			
+        ],
+        "type": "Point"
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"start": "1884-08-21",
+		"end": "1884-09-18",
+		"name": "Pittsburgh Stogies"
+		}, 
+      "geometry": {
+        "coordinates": [
+			 -79.976389,
+			40.439722			
+        ],
+        "type": "Point"
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"start": "1884-09-27",
+		"end": "1884-12-31",
+		"name": "St. Paul Saints"
+		}, 
+      "geometry": {
+        "coordinates": [
+			 -93.082366,
+			44.954230			
+        ],
+        "type": "Point"
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"start": "1884-09-27",
+		"end": "1884-12-31",
+		"name": "Milwaukee Brewers"
+		}, 
+      "geometry": {
+        "coordinates": [
+			-87.906471,
+			43.038902			
+        ],
+        "type": "Point"
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"start": "1884-01-01",
+		"end": "1884-12-31",
+		"name": "St. Louis Maroons"
+		}, 
+      "geometry": {
+        "coordinates": [
+			-90.199402,
+			38.627003			
+        ],
+        "type": "Point"
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"start": "1884-01-01",
+		"end": "1884-12-31",
+		"name": "Washington Nationals"
+		}, 
+      "geometry": {
+        "coordinates": [
+			-77.036873,
+			38.907192			
+        ],
+        "type": "Point"
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"start": "1884-01-01",
+		"end": "1884-12-31",
+		"name": "Cincinnati Outlaw Reds"
+		}, 
+      "geometry": {
+        "coordinates": [
+			-84.512016,
+			39.103119			
+        ],
+        "type": "Point"
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"start": "1884-01-01",
+		"end": "1884-12-31",
+		"name": "Boston Reds"
+		}, 
+      "geometry": {
+        "coordinates": [
+			 -71.060511,
+			42.355433			
+        ],
+        "type": "Point"
+      }
+    },
+	{
+      "type": "Feature",
+      "properties": {
+		"start": "1884-01-01",
+		"end": "1884-12-31",
+		"name": "Baltimore Monumentals"
+		}, 
+      "geometry": {
+        "coordinates": [
+			 -76.610759,
+			39.2908816			
+        ],
+        "type": "Point"
+      }
+    },
+	{
+    "type": "LineString",
+	      "properties": {
+		"start": "1884-08-21",
+		"end": "1884-08-21",
+		"name": "Chicago Browns move to Pittsburgh",
+		"decoration": "arrow"
+		}, 
+    "coordinates": [[-87.627778, 41.881944], [-79.976389, 40.439722]]
+},
+  ]
+}

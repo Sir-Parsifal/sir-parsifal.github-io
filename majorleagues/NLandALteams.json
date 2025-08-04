@@ -1,0 +1,976 @@
+NLandALteams = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Boston Red Caps", "1871", "1882"],
+				["Boston Beaneaters", "1883", "1906"],
+				["Boston Doves", "1907", "1910"],
+				["Boston Rustlers", "1911", "1911"],
+				["Boston Braves", "1912", "1935"],
+				["Boston Bees", "1936", "1940"],
+				["Boston Braves", "1941", "1952"],
+				["Milwaukee Braves", "1953", "1965"],
+				["Atlanta Braves", "1966", "now"] 
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalAssociation", "1871", "1875"],
+				["NationalLeague", "1876", "now"]],
+			"coords": 	[
+				[[42.3375, -71.086944], "1871", "1914"],
+				[[42.353333, -71.119167], "1915", "1952"],
+				[[43.03, -87.974], "1953", "1965"],
+				[[33.739, -84.389], "1966", "1996"],
+				[[33.735278, -84.389444], "1997", "2016"],
+				[[33.89, -84.468], "2017", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Chicago White Stockings", "1871", "1889"],
+				["Chicago Colts", "1890", "1897"],
+				["Chicago Orphans", "1898", "1902"],
+				["Chicago Cubs", "1903", "now"],
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalAssociation", "1871", "1875"],
+				["NationalLeague", "1876", "now"]],
+			"coords": 	[
+				[[41.875833, -87.618889], "1871", "1873"],
+				[[41.853101, -87.628326], "1874", "1877"],
+				[[41.883889, -87.623889], "1878", "1884"],
+				[[41.874722, -87.660556], "1885", "1891"],
+				[[41.824444, -87.632778], "1892", "1893"],
+				[[41.874722, -87.660556], "1894", "1916"],
+				[[41.948056, -87.655556], "1917", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["New York Mutuals", "1871", "1876"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalAssociation", "1871", "1875"],
+				["NationalLeague", "1876", "1876"]],
+			"coords": 	[
+				[[40.703889, -73.952778], "1871", "1876"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Cincinnati Reds", "1876", "1879"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1876", "1879"]],
+			"coords": 	[
+				[[39.143056, -84.546389], "1876", "1879"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Philadelphia Athletics", "1871", "1876"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalAssociation", "1871", "1875"],
+				["NationalLeague", "1876", "1876"]],
+			"coords": 	[
+				[[39.978056, -75.176389], "1871", "1876"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["St. Louis Brown Stockings", "1875", "1877"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalAssociation", "1875", "1875"],
+				["NationalLeague", "1876", "1877"]],
+			"coords": 	[
+				[[38.658, -90.22], "1875", "1877"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Hartford Dark Blues", "1874", "1876"],
+				["New York Hartfords", "1877", "1877"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalAssociation", "1874", "1875"],
+				["NationalLeague", "1876", "1877"]],
+			"coords": 	[
+				[[41.757465, -72.669252], "1876", "1876"],
+				[[40.703889, -73.952778], "1877", "1877"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Louisville Grays", "1876", "1877"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalAssociation", "1875", "1875"],
+				["NationalLeague", "1876", "1877"]],
+			"coords": 	[
+				[[38.227778, -85.763333], "1876", "1877"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Indianapolis Blues", "1878", "1878"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1878", "1878"]],
+			"coords": 	[
+				[[39.762222, -86.153889], "1878", "1878"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Milwaukee Grays", "1877", "1878"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["LeagueAlliance", "1877", "1877"],
+				["NationalLeague", "1878", "1878"]
+						],
+			"coords": 	[
+				[[43.036667, -87.925], "1877", "1878"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Providence Grays", "1878", "1885"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1878", "1878"]
+						],
+			"coords": 	[
+				[[41.813179, -71.437064], "1878", "1885"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Buffalo Bisons", "1877", "1970-06-18"],
+				["Winnipeg Whips", "1970-06-19", "1971"],
+				["Peninsula Whips", "1972", "1973"],
+				["Memphis Blues", "1974", "1976"],
+				["Charleston Charlies", "1977", "1983"],
+				["Maine Guides", "1984", "1987"],
+				["Maine Phillies", "1988", "1988"],
+				["Scranton/Wilkes-Barre Red Barons", "1989", "2006"],
+				["Scranton/Wilkes-Barre Yankees", "2007", "2012"],
+				["Scranton/Wilkes-Barre RailRiders", "2013", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["LeagueAlliance", "1877", "1877"],
+				["InternationalAssociation", "1878", "1878"],
+				["NationalLeague", "1879", "1885"],
+				["Eastern League", "1886", "1886"],
+				["International League", "1887", "1887"],
+				["InternationalAssociation", "1888", "1890"],
+				["Eastern League", "1891", "1898"],
+				["WesternLeague", "1899", "1899"],
+				["AmericanLeague", "1900", "1900"],
+				["Eastern League", "1901", "1911"],
+				["International League", "1912", "now"]
+						],
+			"coords": 	[
+				[[42.906667, -78.892778], "1877", "1883"],
+				[[42.905556, -78.881111], "1884", "1885"],
+				[[42.905556, -78.881111], "1886", "1923"],
+				[[42.915114, -78.862009], "1924", "1960"],
+				[[42.905, -78.856], "1961", "1970-06-18"],
+				[[49.88957, -97.19832], "1970-06-19", "1971"],
+				[[37.009304, -76.387736], "1972", "1973"],
+				[[35.123611, -89.98], "1974", "1976"],
+				[[38.327778, -81.6], "1977", "1983"],
+				[[43.516819, -70.391064], "1984", "1988"],
+				[[41.360406, -75.683967], "1989", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Syracuse Stars", "1878", "1879"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["InternationalAssociation", "1878", "1878"],
+				["NationalLeague", "1879", "1879"]
+						],
+			"coords": 	[
+				[[43.035, -76.148333], "1879", "1879"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Troy Trojans", "1879", "1882"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1879", "1882"]
+						],
+			"coords": 	[
+				[[42.76, -73.680833], "1879", "1879"],
+				[[42.733333, -73.676111], "1880", "1881"],
+				[[42.732222, -73.711389], "1882", "1882"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Cleveland Blues", "1879", "1884"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1879", "1884"]
+						],
+			"coords": 	[
+				[[41.500833, -81.653889], "1879", "1884"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Worcester Worcesters", "1879", "1882"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalBaseBallAssociation", "1879", "1879"],
+				["NationalLeague", "1880", "1882"]
+						],
+			"coords": 	[
+				[[42.268889, -71.813056], "1879", "1882"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Cincinnati Stars", "1880", "1880"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1880", "1880"]
+						],
+			"coords": 	[
+				[[39.120281, -84.538187], "1880", "1880"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Detroit Wolverines", "1881", "1888"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1881", "1888"]
+						],
+			"coords": 	[
+				[[42.351389, -83.055], "1881", "1888"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Philadelphia Phillies", "1883", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1883", "now"]
+						],
+			"coords": 	[
+				[[39.982222, -75.174722], "1883", "1886"],
+				[[39.993056, -75.155833], "1887", "1938"],
+				[[39.996111, -75.165], "1939", "1970"],
+				[[39.906667, -75.171111], "1971", "2003"],
+				[[39.905833, -75.166389], "2004", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["New York Gothams", "1883", "1884"],
+				["New York Giants", "1885", "1957"],
+				["San Francisco Giants", "1958", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1883", "now"]
+						],
+			"coords": 	[
+				[[40.798056, -73.950556], "1883", "1888"],
+				[[40.830278, -73.937778], "1889", "1890"],
+				[[40.831667, -73.937222], "1891", "1957"],
+				[[37.766667, -122.409167], "1958", "1959"],
+				[[37.713611, -122.386111], "1960", "1999"],
+				[[37.778611, -122.389167], "2000", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["St. Louis Maroons", "1884", "1886"],
+				["Indianapolis Hoosiers", "1887", "1888"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["UnionAssociation", "1884", "1884"],
+				["NationalLeague", "1885", "1888"]
+						],
+			"coords": 	[
+				[[38.646389, -90.212222], "1884", "1886"],
+				[[39.788889, -86.162222], "1887", "1888"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kansas City Cowboys", "1886", "1886"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1886", "1886"]
+						],
+			"coords": 	[
+				[[39.089002, -94.552975], "1886", "1886"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Washington Nationals", "1886", "1889"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1886", "1889"]
+						],
+			"coords": 	[
+				[[38.8973, -77.0075], "1886", "1889"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Allegheny Alleghenys", "1882", "1886"],
+				["Pittsburgh Alleghenys", "1887", "1890"],
+				["Pittsburgh Pirates", "1891", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["American Association", "1882", "1886"],
+				["NationalLeague", "1887", "now"]
+						],
+			"coords": 	[
+				[[40.446944, -80.010833], "1882", "1883"],
+				[[40.4547, -80.0186], "1884", "1890"],
+				[[40.446944, -80.010833], "1891", "1909"],
+				[[40.441944, -79.954167], "1910", "1970"],
+				[[40.446667, -80.012778], "1971", "2000"],
+				[[40.446944, -80.005833], "2001", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Cleveland Spiders", "1887", "1899"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["American Association", "1887", "1888"],
+				["NationalLeague", "1889", "1899"]
+						],
+			"coords": 	[
+				[[41.500833, -81.653889], "1887", "1890"],
+				[[41.511389, -81.644167], "1891", "1899"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Cincinnati Red Stockings", "1881", "1889"],
+				["Cincinnati Reds", "1890", "1952"],
+				["Cincinnati Redlegs", "1953", "1958"],
+				["Cincinnati Reds", "1959", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["American Association", "1881", "1889"],
+				["NationalLeague", "1890", "now"]
+						],
+			"coords": 	[
+				[[39.120281, -84.538187], "1881", "1883"],
+				[[39.116944, -84.536667], "1884", "1893"],
+				[[39.116944, -84.536667], "1894", "1901"],
+				[[39.116944, -84.536667], "1902", "1911"],
+				[[39.116667, -84.535278], "1912", "1970"],
+				[[39.096667, -84.508333], "1971", "2002"],
+				[[39.0975, -84.506667], "2003", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Brooklyn Grays", "1883", "1883"],
+				["Brooklyn Atlantics", "1884", "1884"],
+				["Brooklyn Grays", "1885", "1887"],
+				["Brooklyn Bridegrooms", "1888", "1890"],
+				["Brooklyn Grooms", "1891", "1895"],
+				["Brooklyn Bridegrooms", "1896", "1898"],
+				["Brooklyn Superbas", "1899", "1910"],
+				["Brooklyn Trolley Dodgers", "1911", "1912"],
+				["Brooklyn Dodgers", "1913", "1913"],
+				["Brooklyn Robins", "1914", "1931"],
+				["Brooklyn Dodgers", "1932", "1957"],
+				["Los Angeles Dodgers", "1958", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["InterstateAssociation", "1883", "1883"],
+				["American Association", "1884", "1890"],
+				["NationalLeague", "1887", "now"]
+						],
+			"coords": 	[
+			[[40.673972, -73.985722], "1883", "1890"],
+			[[40.67, -73.902778], "1891", "1897"],
+			[[40.675, -73.986111], "1898", "1912"],
+			[[40.665, -73.958056], "1913", "1957"],
+			[[34.014167, -118.287778], "1958", "1961"],
+			[[34.073611, -118.24], "1962", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Baltimore Orioles", "1882", "1899"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["American Association", "1882", "1889"],
+				["Atlantic Association", "1890", "1890-07-26"],
+				["American Association", "1890-07-27", "1891"],
+				["NationalLeague", "1892", "1899"]
+						],
+			"coords": 	[
+				[[39.307222, -76.640833], "1882", "1882"],
+				[[39.318056, -76.612778], "1883", "1899"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Louisville Colonels", "1882", "1884"],
+				["Louisville Colonels", "1885", "1899"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["American Association", "1882", "1891"],
+				["NationalLeague", "1892", "1899"]
+						],
+			"coords": 	[
+				[[38.2405, -85.76496], "1882", "1899"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Washington Statesmen", "1891", "1891"],
+				["Washington Senators", "1892", "1899"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["American Association", "1891", "1891"],
+				["NationalLeague", "1892", "1899"]
+						],
+			"coords": 	[
+				[[38.9175, -77.020278], "1892", "1899"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["St. Louis Brown Stockings", "1882", "1882"],
+				["St. Louis Browns", "1883", "1898"],
+				["St. Louis Perfectos", "1899", "1899"],
+				["St. Louis Cardinals", "1900", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["American Association", "1882", "1891"],
+				["NationalLeague", "1892", "now"]
+						],
+			"coords": 	[
+				[[38.658, -90.22], "1882", "1892"],
+				[[38.662778, -90.222222], "1893", "1920"],
+				[[38.658, -90.22], "1921", "1966"],
+				[[38.623889, -90.1925], "1967", "2005"],
+				[[38.6225, -90.193056], "2006", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Houston Colt .45s", "1962", "1964"],
+				["Houston Astros", "1965", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1962", "2012"],
+				["AmericanLeague", "2013", "now"]
+						],
+			"coords": 	[
+				[[29.6883, -95.4086], "1962", "1964"],
+				[[29.685, -95.407778], "1965", "1999"],
+				[[29.756944, -95.355556], "2000", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["New York Mets", "1962", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1962", "now"],
+						],
+			"coords": 	[
+				[[40.831667, -73.937222], "1962", "1963"],
+				[[40.755556, -73.848056], "1964", "2008"],
+				[[40.756944, -73.845833], "2009", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Montreal Expos", "1969", "2004"],
+				["Washington Nationals", "2005", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1969", "now"]
+						],
+			"coords": 	[
+				[[45.532778, -73.626944], "1969", "1976"],
+				[[45.558, -73.552], "1977", "2004"],
+				[[38.89, -76.971944], "2005", "2007"],
+				[[38.872778, -77.0075], "2008", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["San Diego Padres", "1969", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1969", "now"]
+						],
+			"coords": 	[
+				[[32.783056, -117.119444], "1969", "2003"],
+				[[32.7073, -117.1566], "2004", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Colorado Rockies", "1993", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1993", "now"]
+						],
+			"coords": 	[
+				[[39.746111, -105.021667], "1993", "1994"],
+				[[39.756111, -104.994167], "1995", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Florida Marlins", "1993", "2011"],
+				["Miami Marlins", "2012", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1993", "now"]
+						],
+			"coords": 	[
+				[[25.958056, -80.238889], "1993", "2011"],
+				[[25.778056, -80.219722], "2012", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Arizona Diamondbacks", "1998", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["NationalLeague", "1998", "now"]
+						],
+			"coords": 	[
+				[[33.445278, -112.066944], "1998", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Seattle Pilots", "1969", "1969"],
+				["Milwaukee Brewers", "1970", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["AmericanLeague", "1969", "1997"],
+				["NationalLeague", "1998", "now"],
+						],
+			"coords": 	[
+				[[47.58, -122.298], "1969", "1969"],
+				[[43.03, -87.974], "1970", "2001"],
+				[[43.028333, -87.971111], "2002", "now"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Detroit Tigers", "1894", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["WesternLeague", "1894", "1899"],
+				["AmericanLeague", "1900", "now"]
+						],
+			"coords": 	[
+				[[42.350434, -83.005620], "1894", "1895"],
+				[[42.332222, -83.068056], "1896", "1911"],
+				[[42.331944, -83.068889], "1912", "1999"],
+				[[42.339167, -83.048611], "2000", "now"]
+										
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Sioux City Cornhuskers", "1894", "1894"],
+				["St. Paul Saints", "1895", "1899"],
+				["Chicago White Stockings", "1900", "1903"],
+				["Chicago White Sox", "1904", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["WesternLeague", "1894", "1899"],
+				["AmericanLeague", "1900", "now"]
+						],
+			"coords": 	[
+				[[42.498056, -96.395556], "1894", "1894"],
+				[[44.954987, -93.126631], "1895", "1896"],
+				[[44.954078, -93.14886], "1897", "1899"],
+				[[41.824444, -87.632778], "1900", "1910"],
+				[[41.831667, -87.634167], "1910", "1990"],
+				[[41.83, -87.633889], "1991", "now"]
+										
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Baltimore Orioles", "1901", "1902"],
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["AmericanLeague", "1901", "1902"]
+						],
+			"coords": 	[
+				[[39.322778, -76.610278], "1901", "1902"]									
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Boston Americans", "1901", "1907"],
+				["Boston Red Sox", "1908", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["AmericanLeague", "1901", "now"]
+						],
+			"coords": 	[
+				[[42.338972, -71.088972], "1901", "1911"],
+				[[42.34625, -71.09775], "1912", "now"]								
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["New York Highlanders", "1903", "1912"],
+				["New York Yankees", "1913", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["AmericanLeague", "1903", "now"]
+						],
+			"coords": 	[
+			[[40.840556, -73.942222], "1903", "1912"],
+			[[40.831667, -73.934222], "1913", "1922"],
+			[[40.826944, -73.928056], "1923", "2008"],
+			[[40.829167, -73.926389], "2009", "now"]							
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Columbus Buckeyes", "1896", "1899-07-18"],
+				["Grand Rapids Furniture Makers", "1899-07-19", "1899"],
+				["Cleveland Lakeshores", "1900", "1900"],
+				["Cleveland Bluebirds", "1901", "1901"],
+				["Cleveland Bronchos", "1902", "1902"],
+				["Cleveland Naps", "1903", "1914"],
+				["Cleveland Indians", "1915", "2021"],
+				["Cleveland Guardians", "2022", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["WesternLeague", "1896", "1899"],
+				["AmericanLeague", "1900", "now"]
+						],
+			"coords": 	[
+			[[39.933541,-82.984389], "1896", "1899-07-18"],
+			[[42.9511, -85.6131], "1899-07-19", "1899"],
+			[[41.511389, -81.644167], "1900", "1932"],
+			[[41.506667, -81.697222], "1933", "1993"],
+			[[41.495833, -81.685278], "1994", "now"]							
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Milwaukee Brewers", "1894", "1901"],
+				["St. Louis Browns", "1902", "1953"],
+				["Baltimore Orioles", "1954", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["WesternLeague", "1894", "1899"],
+				["AmericanLeague", "1900", "now"]
+						],
+			"coords": 	[
+				[[43.058889, -87.933889], "1894", "1901"],
+				[[38.658, -90.22], "1902", "1953"],
+				[[39.329444, -76.601389], "1954", "1991"],
+				[[39.283889, -76.621667], "1992", "now"]							
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Philadelphia Athletics", "1901", "1954"],
+				["Kansas City Athletics", "1955", "1967"],
+				["Oakland Athletics", "1968", "2024"],
+				["Sacramento Athletics", "2024", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["AmericanLeague", "1901", "now"]
+						],
+			"coords": 	[
+				[[39.981111, -75.182778], "1901", "1908"],
+				[[39.996111, -75.165], "1909", "1954"],
+				[[39.087, -94.558], "1955", "1967"],
+				[[37.751667, -122.200556], "1968", "2024"],
+				[[38.580372, -121.5138], "2025", "now"]							
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kansas City Blues", "1894", "1900"],
+				["Washington Senators", "1901", "1904"],
+				["Washington Nationals", "1905", "1955"],
+				["Washington Senators", "1956", "1960"],
+				["Minnesota Twins", "1961", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["WesternLeague", "1894", "1899"],
+				["AmericanLeague", "1900", "now"]
+						],
+			"coords": 	[
+				[[39.095556, -94.549722], "1894", "1900"],
+				[[38.901667, -76.986667], "1901", "1903"],
+				[[38.9175, -77.020278], "1904", "1910"],
+				[[38.9175, -77.020278], "1911", "1960"],
+				[[44.854444, -93.241944], "1961", "1981"],				
+				[[44.973889, -93.258056], "1982", "2009"],
+				[[44.981667, -93.278333], "2010", "now"]			
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Los Angeles Angels", "1961", "1965"],
+				["California Angels", "1966", "1996"],
+				["Anaheim Angels", "1997", "2004"],
+				["Los Angeles Angels of Anaheim", "2005", "2015"],
+				["Los Angeles Angels", "2016", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["AmericanLeague", "1961-01-01", "now"]
+						],
+			"coords": 	[
+				[[34.0075, -118.266111], "1961", "1961"],
+				[[34.073611, -118.24], "1962", "1965"],
+				[[33.800278, -117.882778], "1966", "now"]			
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Washington Senators", "1961", "1971"],
+				["Texas Rangers", "1972", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["AmericanLeague", "1961-01-01", "now"]
+						],
+			"coords": 	[
+				[[38.9175, -77.020278], "1961", "1961"],
+				[[38.89, -76.971944], "1962", "1971"],
+				[[32.756389, -97.084722], "1972", "1993"],
+				[[32.751389, -97.082778], "1994", "2019"],
+				[[32.747361, -97.084167], "2020", "now"]			
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kansas City Royals", "1969", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["AmericanLeague", "1969", "now"]
+						],
+			"coords": 	[
+				[[39.087, -94.558], "1969", "1972"],
+				[[39.051389, -94.480556], "1973", "now"]			
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Seattle Mariners", "1977", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["AmericanLeague", "1977", "now"]
+						],
+			"coords": 	[
+				[[47.595278, -122.331389], "1977", "1999"],
+				[[47.591, -122.333], "2000", "now"]			
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Toronto Blue Jays", "1977", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["AmericanLeague", "1977", "now"]
+						],
+			"coords": 	[
+				[[43.631944, -79.417778], "1977", "1989"],
+				[[43.641389, -79.389167], "1990", "now"]			
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Tampa Bay Devil Rays", "1998", "2007"],
+				["Tampa Bay Rays", "2008", "now"]
+						],
+			"fate": "exists",
+			"fatetxt": "",
+			"leagues" : [
+				["AmericanLeague", "1998", "now"]
+						],
+			"coords": 	[
+				[[27.768333, -82.653333], "1998", "now"]		
+						]
+		}
+	]
+}
+	

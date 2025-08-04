@@ -1,0 +1,210 @@
+prairieleague19951997 = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1997-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Aberdeen Pheasants",
+		"fate": "defunct",
+		"fatetxt": "The Aberdeen Pheasants folded after the 1997 season."},
+      "geometry": {
+        "coordinates": [-98.468611, 45.464722],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Minneapolis Loons",
+		"fate": "relocated",
+		"fatetxt": "The Minneapolis Loons moved to Austin, MN after the 1995 season."},
+      "geometry": {
+        "coordinates": [  -93.2297, 44.9826],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-12-31",
+		"end": "1997-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Southern Minny Stars",
+		"fate": "newleague",
+		"fatetxt": "The Southern Minny Stars moved to the Northwoods League after the 1997 season."},
+      "geometry": {
+        "coordinates": [ -92.980556,43.67],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	      "properties": {
+		"start": "1995-12-31",
+		"end": "1995-12-31",
+		"name": "Minneapolis Loons move to Austin, MN",
+		"decoration": "arrow"
+		}, 
+    "coordinates": [[ -93.2297, 44.9826], [-92.980556,43.67]]
+},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-01-01",
+		"end": "1997-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Grand Forks Varmints",
+		"fate": "defunct",
+		"fatetxt": "The Grand Forks Varmints folded after the 1997 season."},
+      "geometry": {
+        "coordinates": [ -97.087328,47.919595],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-01-01",
+		"end": "1997-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Grand Forks Varmints",
+		"fate": "defunct",
+		"fatetxt": "The Grand Forks Varmints folded after the 1997 season."},
+      "geometry": {
+        "coordinates": [ -97.087328,47.919595],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-01-01",
+		"end": "1996-06-19",
+		"info": "",
+		"type": "team",
+		"name": "Brainerd Bobcats",
+		"fate": "defunct",
+		"fatetxt": "The Brainerd Bobcats folded two weeks into the 1996 season."},
+      "geometry": {
+        "coordinates": [  -94.200833, 46.358056],
+        "type": "Point"}
+    },
+		{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1996-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Brandon Grey Owls",
+		"fate": "rebrand",
+		"fatetxt": "The Brandon Gray Owls rebranded to the West Manitoba Wranglers after the 1996 season"},
+      "geometry": {
+        "coordinates": [-99.952222, 49.846944],
+        "type": "Point"}
+    },
+			{ "type": "Feature",
+      "properties": {
+		"start": "1997-01-01",
+		"end": "1997-12-31",
+		"info": "",
+		"type": "team",
+		"name": "West Manitoba Wranglers",
+		"fate": "defunct",
+		"fatetxt": "The West Manitoba Wranglers folded after the 1997 season"},
+      "geometry": {
+        "coordinates": [-99.952222, 49.846944],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-01-01",
+		"end": "1996-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Green Bay Sultans",
+		"fate": "defunct",
+		"fatetxt": "The Green Bay Sultans folded after the 1996 season."},
+      "geometry": {
+        "coordinates": [ -88.015833, 44.513333],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1997-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Minot Mallards",
+		"fate": "defunct",
+		"fatetxt": "The Minot Mallards folded after the 1997 season."},
+      "geometry": {
+        "coordinates": [-101.301101, 48.234482],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1997-07-26",
+		"info": "",
+		"type": "team",
+		"name": "Moose Jaw Diamond Dogs",
+		"fate": "defunct",
+		"fatetxt": "The Moose Jaw Diamond Dogs folded midway through the 1997 season."},
+      "geometry": {
+        "coordinates": [-105.551944, 50.393333],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1997-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Regina Cyclones",
+		"fate": "defunct",
+		"fatetxt": "The Regina Cyclones folded after the 1997 season."},
+      "geometry": {
+        "coordinates": [-104.606667, 50.454722],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "1995-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Saskatoon Riot",
+		"fate": "rebrand",
+		"fatetxt": "The Saskatoon Riot rebranded to the Saskatoon Smokin' Guns following the 1995 season."},
+      "geometry": {
+        "coordinates": [ -106.697089, 52.111273],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-01-01",
+		"end": "1996-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Saskatoon Smokin' Guns",
+		"fate": "rebrand",
+		"fatetxt": "The Saskatoon Riot rebranded to the Saskatoon Stallions following the 1996 season."},
+      "geometry": {
+        "coordinates": [ -106.697089, 52.111273],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1997-01-01",
+		"end": "1997-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Saskatoon Stallions",
+		"fate": "defunct",
+		"fatetxt": "The Saskatoon Stallions folded following the 1997 season."},
+      "geometry": {
+        "coordinates": [ -106.697089, 52.111273],
+        "type": "Point"}
+    }
+  ]
+}

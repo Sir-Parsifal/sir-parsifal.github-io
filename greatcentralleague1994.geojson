@@ -1,0 +1,77 @@
+greatcentralleague1994 = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1994-12-31",
+		"info": "test",
+		"type": "team",
+		"name": "Champaign-Urbana Bandits",
+		"fate": "defunct",
+		"fatetxt": "Champaign-Urbana Bandits folded after the 1994 season."},
+      "geometry": {
+        "coordinates": [  -88.243611, 40.116389],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1994-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Lafayette Leopards",
+		"fate": "newleague",
+		"fatetxt": "The Lafayette Leopards moved to the Mid-America League after the 1994 season."},
+      "geometry": {
+        "coordinates": [-86.871667, 40.411667],
+        "type": "Point"}
+    },	
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1994-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Mason City Bats",
+		"fate": "defunct",
+		"fatetxt": "Mason City Bats folded after the 1994 season."},	
+      "geometry": {
+        "coordinates": [ -93.201944, 43.148611],
+        "type": "Point"}
+    },	
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1994-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Minneapolis Millers",
+		"fate": "defunct",
+		"fatetxt": "Minneapolis Millers folded after the 1994 season."}, 
+      "geometry": {
+        "coordinates": [-93.291944, 44.970833],
+        "type": "Point"}
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-07-17",
+		"end": "1994-07-17",
+		"info": "",
+		"type": "event",
+		"subtype": "pitchevent",
+		"eventtxt": "Jeff Gregg throws the first no-hitter in Great Central League history, beating the Mason City Bats 7-0 in the second game of a seven-inning doubleheader."}, 
+      "geometry": {
+        "coordinates": [-93.291944, 44.970833],
+        "type": "Point"}
+    }
+  ]
+}

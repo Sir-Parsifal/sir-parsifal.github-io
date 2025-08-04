@@ -1,0 +1,93 @@
+nationalleague1876now = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "1876-01-01",
+		"end": "1876-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Hartford Dark Blues",
+		"fate": "relocated",
+		"fatetxt": "The Hartford Dark Blues moved to Brooklyn, NY after the 1876 season. "},
+      "geometry": {
+        "coordinates": [-72.669252, 41.757465],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	    "properties": {
+		"start": "1876-12-31",
+		"end": "1876-12-31",
+		"name": "Hartford Dark Blues moved to Brooklyn, NY",
+		"decoration": "arrow"
+		}, 
+		"coordinates": [[-72.669252, 41.757465], [ -73.952778, 40.703889]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1877-01-01",
+		"end": "1877-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Brooklyn Hartfords",
+		"fate": "defunct",
+		"fatetxt": "The Brooklyn Hartfords folded after the 1877 season. "},
+      "geometry": {
+        "coordinates": [ -73.952778, 40.703889],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1876-01-01",
+		"end": "1879-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Cincinnati Reds",
+		"fate": "defunct",
+		"fatetxt": "The Cincinnati Reds folded after the 1879 season. "},
+      "geometry": {
+        "coordinates": [ -84.546389, 39.143056],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1876-01-01",
+		"end": "1876-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Philadelphia Athletics",
+		"fate": "defunct",
+		"fatetxt": "The Philadelphia Athletics folded after the 1876 season. "},
+      "geometry": {
+        "coordinates": [-75.176389, 39.978056],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1876-01-01",
+		"end": "1877-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Louisville Grays",
+		"fate": "defunct",
+		"fatetxt": "The Louisville Grays folded after the 1877 season. "},
+      "geometry": {
+        "coordinates": [ -85.763333, 38.227778],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1876-01-01",
+		"end": "1876-12-31",
+		"info": "",
+		"type": "team",
+		"name": "New York Mutuals",
+		"fate": "defunct",
+		"fatetxt": "The New York Mutuals folded after the 1876 season. "},
+      "geometry": {
+        "coordinates": [ -73.952778, 40.703889],
+        "type": "Point"}
+    }
+  ]
+}

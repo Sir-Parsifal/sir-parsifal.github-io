@@ -1,0 +1,609 @@
+northwoodsleague1994now = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Rochester Honkers",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [-92.456667, 44.025],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1997-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Manitowoc Skunks",
+		"fate": "defunct",
+		"fatetxt": "The Manitowoc Skunks folded after the 1997 season."},
+      "geometry": {
+        "coordinates": [  -87.675, 44.096389],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1998-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Wausau Woodchucks",
+		"fate": "rebrand",
+		"fatetxt": "The Wausau Woodchunks rebranded to the Wisconsin Woodchucks after the 1998 season."},
+      "geometry": {
+        "coordinates": [ -89.626585, 44.974475],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1999-01-01",
+		"end": "2021-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Wisconsin Woodchucks",
+		"fate": "rebrand",
+		"fatetxt": "The Wisconsin Woodchunks rebranded to the Wausau Woodchucks after the 2021 season."},
+      "geometry": {
+        "coordinates": [ -89.626585, 44.974475],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2022-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Wausau Woodchucks",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -89.626585, 44.974475],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1998-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Kenosha Kroakers",
+		"fate": "defunct",
+		"fatetxt": "The Kenosha Kroakers kroaked after the 1998 season."},
+      "geometry": {
+        "coordinates": [  -87.824686, 42.561963],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1994-01-01",
+		"end": "1996-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Dubuque Mud Puppies",
+		"fate": "relocated",
+		"fatetxt": "The Dubuque Mud Puppies moved to St. Cloud, MN after the 1996 season."},
+      "geometry": {
+        "coordinates": [ -90.723611, 42.499722],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	      "properties": {
+		"start": "1996-12-31",
+		"end": "1996-12-31",
+		"name": "The Dubuque Mud Puppies move to St. Cloud, MN",
+		"decoration": "arrow"
+		}, 
+    "coordinates": [[-90.723611, 42.499722], [-94.220273, 45.570279]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-12-31",
+		"end": "2011-12-31",
+		"info": "",
+		"type": "team",
+		"name": "St. Cloud River Bats",
+		"fate": "rebrand",
+		"fatetxt": "The St. Cloud River Bats rebranded to the St. Cloud Rox after the 2011 season."},
+      "geometry": {
+        "coordinates": [-94.220273, 45.570279],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2012-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "St. Cloud Rox",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [-94.220273, 45.570279],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1995-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Waterloo Bucks",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [-92.35355, 42.510969],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1998-01-01",
+		"end": "2002-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Brainerd Mighty Gulls",
+		"fate": "defunct",
+		"fatetxt": "The Brainerd Mighty Gulls folded after the 2002 season. "},
+      "geometry": {
+        "coordinates": [ -94.200833, 46.358056],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1998-01-01",
+		"end": "2000-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Grand Forks Channel Cats",
+		"fate": "defunct",
+		"fatetxt": "The Grand Forks Channel Cats folded after the 2002 season. "},
+      "geometry": {
+        "coordinates": [-97.087328, 47.919595],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1998-01-01",
+		"end": "1999-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Southern Minny Stars",
+		"fate": "relocated",
+		"fatetxt": "The Southern Minny Stars moved to Minot, ND after the 1999 season. "},
+      "geometry": {
+        "coordinates": [-92.980556,43.67],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1999-12-31",
+		"end": "2000-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Minot Greenheads",
+		"fate": "defunct",
+		"fatetxt": "The Minot Greenheads folded after the 2000 season."},
+      "geometry": {
+        "coordinates": [-101.301101,48.234482],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	      "properties": {
+		"start": "1999-12-31",
+		"end": "1999-12-31",
+		"name": "The Southern Minny Stars move to Minot, ND. ",
+		"decoration": "arrow"
+		}, 
+    "coordinates": [[-92.980556,43.67], [-101.301101,48.234482]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1999-01-01",
+		"end": "2001-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Mankato Mashers",
+		"fate": "rebrand",
+		"fatetxt": "The Mankato Mashers rebranded to the Mankato MoonDogs after the 2001 season."},
+      "geometry": {
+        "coordinates": [-93.975833,44.17],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2002-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Mankato MoonDogs",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [-93.975833,44.17],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2001-01-01",
+		"end": "2012-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Alexandria Beetles",
+		"fate": "rebrand",
+		"fatetxt": "The Alexandria Beetles rebranded to the Alexandria Blue Anchors after the 2012 season."},
+      "geometry": {
+        "coordinates": [-95.381166,45.887443],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2013-01-01",
+		"end": "2015-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Alexandria Beetles",
+		"fate": "defunct",
+		"fatetxt": "The Alexandria Blue Anchors folded after the 2015 season."},
+      "geometry": {
+        "coordinates": [-95.381166,45.887443],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2001-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Madison Mallards",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [-89.366944,43.131111],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2003-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Duluth Huskies",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -92.143611,46.754444],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2003-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "La Crosse Loggers",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -91.251358,43.836284],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2003-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Thunder Bay Border Cats",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -89.239722,48.423333],
+        "type": "Point"}
+    },
+		{ "type": "Feature",
+      "properties": {
+		"start": "2020-01-01",
+		"end": "2022-12-31",
+		"info": "",
+		"type": "event",
+		"subtype": "other",
+		"eventtxt": "The Thunder Bay Border Cats sat out the 2020, 2021, and 2022 Northwoods League seasons due to COVID concerns. "}, 
+      "geometry": {
+        "coordinates": [-89.239722,48.423333],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2005-01-01",
+		"end": "2008-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Brainerd Blue Thunder",
+		"fate": "rebrand",
+		"fatetxt": "The Brainerd Blue Thunder rebranded to the Brainerd Lakes Area Lunkers after the 2008 season."},
+      "geometry": {
+        "coordinates": [-94.200833, 46.358056],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2009-01-01",
+		"end": "2011-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Brainerd Lakes Area Lunkers",
+		"fate": "defunct",
+		"fatetxt": "The Brainerd Lakes Area Lunkers folded after the 2011 season. "},
+      "geometry": {
+        "coordinates": [-94.200833, 46.358056],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2005-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Eau Claire Express",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [-91.52048, 44.807759],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2005-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Eau Claire Express",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [-91.52048, 44.807759],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2007-01-01",
+		"end": "2021-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Battle Creek Bombers",
+		"fate": "rebrand",
+		"fatetxt": "The Battle Creek Bombers rebranded to the Battle Creek Battle Jacks after the 2021 season."},
+      "geometry": {
+        "coordinates": [ -85.204167,42.312222],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2022-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Battle Creek Battle Jacks",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -85.204167,42.312222],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2007-01-01",
+		"end": "2018-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Green Bay Bullfrogs",
+		"fate": "rebrand",
+		"fatetxt": "The Green Bay Bullfrogs rebranded to the Green Bay Booyah after the 2018 season."},
+      "geometry": {
+        "coordinates": [  -88.015833,44.513333],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2019-01-01",
+		"end": "2021-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Green Bay Booyah",
+		"fate": "rebrand",
+		"fatetxt": "The Green Bay Booyah rebranded to the Green Bay Rockers after the 2021 season."},
+      "geometry": {
+        "coordinates": [  -88.015833,44.513333],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2022-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Green Bay Rockers",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [  -88.015833,44.513333],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2010-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Willmar Stingers",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -95.071944,45.108056],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2010-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Wisconsin Rapids Rafters",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [  -89.820621,44.385493],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2012-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Lakeshore Chinooks",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [   -87.96,43.224167],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2014-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Kalamazoo Growlers",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -85.5625,42.290278],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2014-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Kenosha Kingfish",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -87.824686, 42.561963],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2016-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Rockford Rivets",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -88.955, 42.324167],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2017-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Bismarck Larks",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -100.7958, 46.8038],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2017-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Fond du Lac Dock Spiders",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [ -88.408856, 43.777381],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2019-01-01",
+		"end": "2024-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Kokomo Jackrabbits",
+		"fate": "defunct",
+		"fatetxt": "The Kokomo Jackrabbits folded after the 2024 season."},
+      "geometry": {
+        "coordinates": [-86.12834, 40.482916],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2019-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Traverse City Pit Spitters",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [-85.660615, 44.68173],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2023-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Minot Hot Tots",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [-101.301101,48.234482],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2024-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Badlands Big Sticks",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [-102.786389,46.873056],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2024-01-01",
+		"end": "2025-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Royal Oak Leprechauns",
+		"fate": "exists",
+		"fatetxt": ""},
+      "geometry": {
+        "coordinates": [-83.184444,42.519444],
+        "type": "Point"}
+    }
+  ]
+}

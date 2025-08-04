@@ -1,0 +1,658 @@
+nationalleague1876now = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Boston Red Caps", "1876", "1882"],
+			["Boston Beaneaters", "1883", "1906"],
+			["Boston Doves", "1907", "1910"],
+			["Boston Rustlers", "1911", "1911"],
+			["Boston Braves", "1912", "1935"],
+			["Boston Bees", "1936", "1940"],
+			["Boston Braves", "1941", "1952"],
+			["Milwaukee Braves", "1953", "1965"],
+			["Atlanta Braves", "1966", "now"] ],
+		"fate": "",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[42.3375, -71.086944], "1876", "1914"],
+			[[42.353333, -71.119167], "1915", "1952"],
+			[[43.03, -87.974], "1953", "1965"],
+			[[33.739, -84.389], "1966", "1996"],
+			[[33.735278, -84.389444], "1997", "2016"],
+			[[33.89, -84.468], "2017", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Chicago White Stockings", "1876", "1889"],
+			["Chicago Colts", "1890", "1897"],
+			["Chicago Orphans", "1898", "1902"],
+			["Chicago Cubs", "1903", "now"],
+			["Boston Braves", "1912", "1935"] ],
+		"fate": "",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[41.853101, -87.628326], "1876", "1877"],
+			[[41.883889, -87.623889], "1878", "1884"],
+			[[41.874722, -87.660556], "1885", "1891"],
+			[[41.824444, -87.632778], "1892", "1893"],
+			[[41.874722, -87.660556], "1894", "1916"],
+			[[41.948056, -87.655556], "1917", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["New York Mutuals", "1876", "1876", "defunct"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[40.703889, -73.952778], "1876", "1876"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Cincinnati Reds", "1876", "1879"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[39.143056, -84.546389], "1876", "1879"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Philadelphia Athletics", "1876", "1876"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[39.978056, -75.176389], "1876", "1876"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["St. Louis Brown Stockings", "1876", "1877"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[38.658, -90.22], "1876", "1877"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Hartford Dark Blues", "1876", "1876"],
+			["New York Hartfords", "1877", "1877"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[41.757465, -72.669252], "1876", "1876"],
+			[[40.703889, -73.952778], "1877", "1877"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Louisville Grays", "1876", "1877"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[38.227778, -85.763333], "1876", "1877"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Indianapolis Blues", "1878", "1878"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[39.762222, -86.153889], "1878", "1878"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Milwaukee Grays", "1878", "1878"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[43.036667, -87.925], "1878", "1878"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Providence Grays", "1878", "1885"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[41.813179, -71.437064], "1878", "1885"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Buffalo Bisons", "1879", "1885"]],
+		"fate": "newleague",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[42.906667, -78.892778], "1878", "1883"],
+			[[42.914722, -78.861111], "1884", "1885"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Syracuse Stars", "1879", "1879"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[43.035, -76.148333], "1879", "1879"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Troy Trojans", "1879", "1882"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[42.732222, -73.711389], "1879", "1882"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Worcester Worcesters", "1880", "1882"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[42.268889, -71.813056], "1880", "1882"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Cincinnati Stars", "1880", "1880"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[39.120281, -84.538187], "1880", "1880"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Cleveland Blues", "1879", "1884"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[41.500833, -81.653889], "1879", "1884"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Detroit Wolverines", "1881", "1888"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[42.351389, -83.055], "1881", "1888"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Philadelphia Phillies", "1883", "now"]],
+		"fate": "exists",
+		"fatetxt": "sadly they are the phillies" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[39.982222, -75.174722], "1883", "1886"],
+			[[39.993056, -75.155833], "1887", "1938"],
+			[[39.996111, -75.165], "1939", "1970"],
+			[[39.906667, -75.171111], "1971", "2003"],
+			[[39.905833, -75.166389], "2004", "now"],
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["New York Gothams", "1883", "1884"],
+			["New York Giants", "1885", "1957"],
+			["San Francisco Giants", "1958", "now"]],
+		"fate": "exists",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[40.798056, -73.950556], "1883", "1888"],
+			[[40.830278, -73.937778], "1889", "1890"],
+			[[40.831667, -73.937222], "1891", "1957"],
+			[[37.766667, -122.409167], "1958", "1959"],
+			[[37.713611, -122.386111], "1960", "1999"],
+			[[37.778611, -122.389167], "2000", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["St. Louis Maroons", "1885", "1886"],
+			["Indianapolis Hoosiers", "1887", "1888"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[38.646389, -90.212222], "1885", "1886"],
+			[[39.788889, -86.162222], "1887", "1888"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Kansas City Cowboys", "1886", "1886"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[39.089002, -94.552975], "1886", "1886"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Washington Nationals", "1886", "1889"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[38.8973, -77.0075], "1886", "1889"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Pittsburgh Alleghenys", "1887", "1890"],
+			["Pittsburgh Pirates", "1891", "now"]],
+		"fate": "exists",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[40.4547, -80.0186], "1887", "1890"],
+			[[40.446944, -80.010833], "1891", "1909"],
+			[[40.441944, -79.954167], "1910", "1970"],
+			[[40.446667, -80.012778], "1971", "2000"],
+			[[40.446944, -80.005833], "2001", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Cincinnati Reds", "1890", "1952"],
+			["Cincinnati Redlegs", "1953", "1958"],
+			["Cincinnati Reds", "1959", "now"]],
+		"fate": "exists",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[39.116944, -84.536667], "1890", "1893"],
+			[[39.116944, -84.536667], "1894", "1901"],
+			[[39.116944, -84.536667], "1902", "1911"],
+			[[39.116667, -84.535278], "1912", "1970"],
+			[[39.096667, -84.508333], "1971", "2002"],
+			[[39.0975, -84.506667], "2003", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Brooklyn Bridegrooms", "1890", "1890"],
+			["Brooklyn Grooms", "1891", "1895"],
+			["Brooklyn Bridegrooms", "1896", "1898"],
+			["Brooklyn Superbas", "1899", "1910"],
+			["Brooklyn Trolley Dodgers", "1911", "1912"],
+			["Brooklyn Dodgers", "1913", "1913"],
+			["Brooklyn Robins", "1914", "1931"],
+			["Brooklyn Dodgers", "1932", "1957"],
+			["Los Angeles Dodgers", "1958", "now"]],
+		"fate": "exists",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[40.673972, -73.985722], "1890", "1890"],
+			[[40.67, -73.902778], "1891", "1897"],
+			[[40.675, -73.986111], "1898", "1912"],
+			[[40.665, -73.958056], "1913", "1957"],
+			[[34.014167, -118.287778], "1958", "1961"],
+			[[34.073611, -118.24], "1962", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Baltimore Orioles", "1892", "1899"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[39.318056, -76.612778], "1892", "1899"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Louisville Colonels", "1892", "1899"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[38.2405, -85.76496], "1892", "1899"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Washington Senators", "1892", "1899"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[38.9175, -77.020278], "1892", "1899"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["St. Louis Browns", "1892", "1898"],
+			["St. Louis Perfectos", "1899", "1899"],
+			["St. Louis Cardinals", "1900", "now"]],
+		"fate": "exists",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[38.658, -90.22], "1892", "1892"],
+			[[38.662778, -90.222222], "1893", "1920"],
+			[[38.658, -90.22], "1921", "1966"],
+			[[38.623889, -90.1925], "1967", "2005"],
+			[[38.6225, -90.193056], "2006", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Houston Colt .45s", "1962", "1964"],
+			["Houston Astros", "1965", "2012"]],
+		"fate": "newleague",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[29.6883, -95.4086], "1962", "1964"],
+			[[29.685, -95.407778], "1965", "1999"],
+			[[29.756944, -95.355556], "2000", "2012"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["New York Mets", "1962", "now"]],
+		"fate": "",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[40.831667, -73.937222], "1962", "1963"],
+			[[40.755556, -73.848056], "1964", "2008"],
+			[[40.756944, -73.845833], "2009", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Montreal Expos", "1969", "2004"],
+			["Washington Nationals", "2005", "now"]],
+		"fate": "",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[45.532778, -73.626944], "1969", "1976"],
+			[[45.558, -73.552], "1977", "2004"],
+			[[38.89, -76.971944], "2005", "2007"],
+			[[38.872778, -77.0075], "2008", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["San Diego Padres", "1969", "now"]],
+		"fate": "",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[32.783056, -117.119444], "1969", "2003"],
+			[[32.7073, -117.1566], "2004", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Colorado Rockies", "1993", "now"]],
+		"fate": "",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[39.746111, -105.021667], "1993", "1994"],
+			[[39.756111, -104.994167], "1995", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Florida Marlins", "1993", "2011"],
+			["Miami Marlins", "2012", "now"]],
+		"fate": "",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[25.958056, -80.238889], "1993", "2011"],
+			[[25.778056, -80.219722], "2012", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Milwaukee Brewers", "1998", "now"]],
+		"fate": "",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[43.03, -87.974], "1998", "2001"],
+			[[43.028333, -87.971111], "2002", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Arizona Diamondbacks", "1998", "now"]],
+		"fate": "",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[33.445278, -112.066944], "1998", "now"]
+        ]
+      }
+	}
+  ]
+}

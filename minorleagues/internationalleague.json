@@ -1,0 +1,26 @@
+internationalleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rochester Bronchos", "1899", "1907"],
+				["Rochester Hustlers", "1908", "1920"],
+				["Rochester Colts", "1921", "1921"],
+				["Rochester Tribe", "1922", "1928"],
+				["Rochester Red Wings", "1929", "now"]
+						],
+			"leagues" : [
+				["Eastern League", "1899", "1911"],
+				["International League", "1912", "now"]
+						],
+			"coords": 	[
+				[[43.155, -77.576667], "1899", "1907"],
+				[[43.170254, -77.569014], "1908", "1928"],
+				[[43.18755, -77.61099], "1929", "1996"],
+				[[43.158267, -77.619794], "1997", "now"]
+						]
+		},
+	]
+}
+	

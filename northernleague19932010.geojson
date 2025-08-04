@@ -1,0 +1,282 @@
+northernleague19932010 = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "1993-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Rochester Aces",
+		"fate": "relocated",
+		"fatetxt": "The Rochester Aces moved to Winnipeg after the 1993 season."},
+      "geometry": {
+        "coordinates": [-92.456667, 44.025],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-12-31",
+		"end": "2010-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Winnipeg Goldeyes",
+		"fate": "newleague",
+		"fatetxt": "The Winnipeg Goldeyes moved to the American Association after the 2010 season. "},
+      "geometry": {
+        "coordinates": [-97.138611, 49.895556],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	      "properties": {
+		"start": "1993-12-31",
+		"end": "1993-12-31",
+		"name": "The Rochester Aces moved to Winnipeg, MB",
+		"decoration": "arrow"
+		}, 
+    "coordinates": [[-92.456667, 44.025], [-97.138611, 49.895556]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "1998-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Thunder Bay Whiskey Jacks",
+		"fate": "relocated",
+		"fatetxt": "The Thunder Bay Whiskey Jacks moved to Schaumburg, IL after the 1998 season. "},
+      "geometry": {
+        "coordinates": [ -89.239722,48.423333],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1998-12-31",
+		"end": "2010-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Schaumburg Flyers",
+		"fate": "defunct",
+		"fatetxt": "The Schaumburg Flyers folded after the 2010 season. "},
+      "geometry": {
+        "coordinates": [ -88.118089,41.992828],
+        "type": "Point"}
+    },
+	{
+	    "type": "LineString",
+	      "properties": {
+		"start": "1998-12-31",
+		"end": "1998-12-31",
+		"name": "The Thunder Bay Whiskey Jacks moved to Schaumburg, IL",
+		"decoration": "arrow"
+		}, 
+    "coordinates": [[-89.239722,48.423333], [-88.118089,41.992828]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "2005-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Sioux City Explorers",
+		"fate": "newleague",
+		"fatetxt": "The Sioux City Explorers moved to the American Association after the 2005 season. "},
+      "geometry": {
+        "coordinates": [ -96.364217,42.443047],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "2005-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Sioux Falls Canaries",
+		"fate": "newleague",
+		"fatetxt": "The Sioux Falls Canaries moved to the American Association after the 2005 season. "},
+      "geometry": {
+        "coordinates": [  -96.7492,43.559721],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "2002-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Duluth-Superior Dukes",
+		"fate": "relocated",
+		"fatetxt": "The Duluth-Superior Dukes moved to Kansas City, KS after the 2002 season. "},
+      "geometry": {
+        "coordinates": [  -92.143611,46.754444],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2002-12-31",
+		"end": "2010-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Kansas City T-Bones",
+		"fate": "newleague",
+		"fatetxt": "The Kansas City T-Bones moved to the American Association after the 2010 season. "},
+      "geometry": {
+        "coordinates": [  -94.830833,39.124444],
+        "type": "Point"}
+    },
+	{
+    "type": "LineString",
+	      "properties": {
+		"start": "2002-12-31",
+		"end": "2002-12-31",
+		"name": "The Duluth-Superior Dukes moved to Kansas City, KS.",
+		"decoration": "arrow"
+		}, 
+    "coordinates": [[ -92.143611,46.754444], [ -94.830833,39.124444]]
+	},
+	{ "type": "Feature",
+      "properties": {
+		"start": "1993-01-01",
+		"end": "2005-12-31",
+		"info": "",
+		"type": "team",
+		"name": "St. Paul Saints",
+		"fate": "newleague",
+		"fatetxt": "The St. Paul Saints moved to the American Association after the 2005 season. "},
+      "geometry": {
+        "coordinates": [ -93.173889,44.9725],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-01-01",
+		"end": "2000-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Madison Black Wolf",
+		"fate": "defunct",
+		"fatetxt": "The Madison Black Wolf folded after the 2000 season. "},
+      "geometry": {
+        "coordinates": [-89.366944,43.131111],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2001-01-01",
+		"end": "2005-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Lincoln Saltdogs",
+		"fate": "newleague",
+		"fatetxt": "The Lincoln Saltdogs moved to the American Association after the 2005 season. "},
+      "geometry": {
+        "coordinates": [ -96.71391,40.82279],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "1996-01-01",
+		"end": "2010-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Fargo-Moorhead RedHawks",
+		"fate": "newleague",
+		"fatetxt": "The Fargo-Moorhead RedHawks moved to the American Association after the 2010 season. "},
+      "geometry": {
+        "coordinates": [  -96.804269,46.898489],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2002-01-01",
+		"end": "2010-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Gary SouthShore RailCats",
+		"fate": "newleague",
+		"fatetxt": "The Gary SouthShore RailCats moved to the American Association after the 2010 season. "},
+      "geometry": {
+        "coordinates": [  -87.332217,41.602869],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2002-01-01",
+		"end": "2010-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Joliet JackHammers",
+		"fate": "newleague",
+		"fatetxt": "The Joliet JackHammers moved to the Frontier League after the 2011 season. "},
+      "geometry": {
+        "coordinates": [  -88.0779,41.525711],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2002-01-01",
+		"end": "2010-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Joliet JackHammers",
+		"fate": "newleague",
+		"fatetxt": "The Joliet JackHammers moved to the Frontier League after the 2011 season. "},
+      "geometry": {
+        "coordinates": [  -88.0779,41.525711],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2005-01-01",
+		"end": "2007-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Edmonton Cracker-Cats",
+		"fate": "newleague",
+		"fatetxt": "The Edmonton Cracker-Cats moved to the Golden Baseball League after the 2007 season. "},
+      "geometry": {
+        "coordinates": [ -113.496667,53.531667],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2005-01-01",
+		"end": "2007-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Calgary Vipers",
+		"fate": "newleague",
+		"fatetxt": "The Calgary Vipers moved to the Golden Baseball League after the 2007 season. "},
+      "geometry": {
+        "coordinates": [ -114.120636,51.073436],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2010-01-01",
+		"end": "2010-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Lake County Fielders",
+		"fate": "newleague",
+		"fatetxt": "The Lake County Fielders moved to the North American League after the 2010 season. "},
+      "geometry": {
+        "coordinates": [ -87.87961,42.46587],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2010-01-01",
+		"end": "2010-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Rockford Aviators",
+		"fate": "newleague",
+		"fatetxt": "The Rockford Aviators moved to the Frontier League after the 2010 season. "},
+      "geometry": {
+        "coordinates": [  -88.955, 42.324167],
+        "type": "Point"}
+    }
+  ]
+}

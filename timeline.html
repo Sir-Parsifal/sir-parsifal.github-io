@@ -1,0 +1,496 @@
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<title>Baseball Timeline</title>
+
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+<script src="https://skeate.dev/Leaflet.timeline/examples/leaflet.timeline.js"></script>
+<script src="leaflet.textpath.js"></script>
+<script src="greatcentralleague1994.geojson" type="text/javascript"></script>
+<script src="westernleague1893.geojson" type="text/javascript"></script>
+<script src="unionassociation1884.geojson" type="text/javascript"></script>
+<script src="midamericaleague1995.geojson" type="text/javascript"></script>
+<script src="northcentralleague19941995.geojson" type="text/javascript"></script>
+<script src="prairieleague19951997.geojson" type="text/javascript"></script>
+<script src="heartlandleague19961998.geojson" type="text/javascript"></script>
+<script src="bigsouthleague19961997.geojson" type="text/javascript"></script>
+<script src="atlanticcoastleague1995.geojson" type="text/javascript"></script>
+<script src="northatlanticleague19951996.geojson" type="text/javascript"></script>
+<script src="northwoodsleague1994now.geojson" type="text/javascript"></script>
+<script src="northernleague19932010.geojson" type="text/javascript"></script>
+<script src="allamericanassociation2001.geojson" type="text/javascript"></script>
+<script src="frontierleague1993now.geojson" type="text/javascript"></script>
+<script src="southcoastleague2007.geojson" type="text/javascript"></script>
+<script src="majorleagues/nationalleague1876now.geojson" type="text/javascript"></script>
+<script src="majorleagues/bravestest.json" type="text/javascript"></script>
+<script src="majorleagues/americanleague1901now.geojson" type="text/javascript"></script>
+<script src="notableBirths.geojson" type="text/javascript"></script>
+<script src="majorleagues/NLandALteams.json" type="text/javascript"></script>
+<script src="minorleagues/westernleague1894.json" type="text/javascript"></script>
+<script src="minorleagues/pacificcoastleague.json" type="text/javascript"></script>
+<script src="minorleagues/alabamatennesseeleague.json" type="text/javascript"></script>
+<script src="minorleagues/midwestleague.json" type="text/javascript"></script> 
+<script src="minorleagues/internationalleague.json" type="text/javascript"></script> 
+<script src="majorleagues/playersleague.json" type="text/javascript"></script>
+<script src="majorleagues/americanassociation.json" type="text/javascript"></script>
+
+<div id="map" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+    <style>
+      .leaflet-bottom.leaflet-left {
+        width: 100%;
+      }
+      .leaflet-control-container .leaflet-timeline-controls {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+      }
+    </style>
+	
+
+
+</head>
+
+
+
+<body>
+
+<script>
+
+//creates the actual map
+var map = L.map('map').setView([42.7, -74.9], 6);
+//L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+//    maxZoom: 19,
+//    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+//}).addTo(map);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    maxZoom: 17,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+}).addTo(map);
+
+timelineControl = L.timelineSliderControl({
+"start": Date.parse("1832-09-17"),
+"end": Date.parse("2025-12-31"),
+formatOutput: function (date) {
+            return new Date(date+86400000).toLocaleDateString(); //this is a horrific hack
+																 //date was off-by-one so I just added an amount of time to line it up
+          },
+duration: 500000
+});
+
+
+
+var ballmarkerIcon = L.Icon.extend({
+    options: {
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+		iconSize: [25, 41],
+		iconAnchor: [12, 41],
+		popupAnchor: [1, -34],
+		shadowSize: [41, 41]
+    }
+});
+
+var greenIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-green.png'}),
+	redIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-red.png'}),
+	yellowIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-yellow.png'}),
+	blackIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-black.png'}),
+	blueIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-blue.png'}),
+	goldIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-gold.png'}),
+	greyIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-grey.png'}),
+	orangeIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-orange.png'}),
+	darkgreenIcon 	= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-darkgreen.png'}),
+	aquamarineIcon 	= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-aquamarine.png'}),
+	pinkIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-pink.png'}),
+	violetIcon 		= new ballmarkerIcon({iconUrl: 'markericons/marker-icon-2x-violet.png'});
+
+var defunctIcon		= new L.Icon({iconUrl: 'defunct1.png', iconAnchor: [15, 35]});
+var birthIcon 		= new L.Icon({iconUrl: 'birthIcon.png'});
+var exclamationIcon = new L.Icon({iconUrl: 'exclamation.png'});
+var newleagueIcon 	= new L.Icon({iconUrl: 'newleague.png'});
+var relocateIcon 	= new L.Icon({iconUrl: 'relocate.png'});
+var rebrandIcon 	= new L.Icon({iconUrl: 'rebrand.png'});
+
+
+var ALIcon = new L.Icon({
+  iconUrl: 'markericons/ALIcon.png',
+  shadowUrl: '',
+  iconSize: [50, 50],
+  iconAnchor: [25, 25],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+
+var NLIcon = new L.Icon({
+  iconUrl: 'markericons/NLIcon.png',
+  shadowUrl: '',
+  iconSize: [50, 50],
+  iconAnchor: [25, 25],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+
+var NorthwoodsIcon = new L.Icon({
+  iconUrl: 'markericons/NorthwoodsIcon.png',
+  shadowUrl: '',
+  iconSize: [50, 50],
+  iconAnchor: [25, 25],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+
+
+
+
+//these should always be camelcased! lowercase is the JSON objects
+//major leagues
+var NationalLeague 					= {"type": 'FeatureCollection', "features": []}
+var AmericanLeague 					= {"type": 'FeatureCollection', "features": []}
+var NationalAssociation 			= {"type": 'FeatureCollection', "features": []}
+var AmericanAssociation				= {"type": 'FeatureCollection', "features": []}
+var UnionAssociation				= {"type": 'FeatureCollection', "features": []}
+var PlayersLeague 					= {"type": 'FeatureCollection', "features": []}
+var FederalLeague					= {"type": 'FeatureCollection', "features": []}
+
+
+//minor leagues
+
+//extant AAA
+var PacificCoastLeague				= {"type": 'FeatureCollection', "features": []}
+var InternationalLeague				= {"type": 'FeatureCollection', "features": []}
+//extant AA
+var TexasLeague						= {"type": 'FeatureCollection', "features": []}
+var EasternLeague					= {"type": 'FeatureCollection', "features": []}
+//extant high-A 
+
+var MidwestLeague					= {"type": 'FeatureCollection', "features": []}
+//extant low-A
+var CaliforniaLeague				= {"type": 'FeatureCollection', "features": []}
+
+//defunct
+var WesternLeague					= {"type": 'FeatureCollection', "features": []}
+var InternationalAssociation		= {"type": 'FeatureCollection', "features": []}
+var LeagueAlliance					= {"type": 'FeatureCollection', "features": []}
+var NationalBaseBallAssociation		= {"type": 'FeatureCollection', "features": []}
+var InterstateAssociation			= {"type": 'FeatureCollection', "features": []}
+var PacificCoastInternationalLeague	= {"type": 'FeatureCollection', "features": []}
+var AlabamaTennesseeLeague			= {"type": 'FeatureCollection', "features": []}
+var IllinoisIndianaIowaLeague		= {"type": 'FeatureCollection', "features": []}
+var IllinoisStateLeague				= {"type": 'FeatureCollection', "features": []}
+var MississippiOhioValleyLeague		= {"type": 'FeatureCollection', "features": []}
+var SouthAtlanticLeague				= {"type": 'FeatureCollection', "features": []}
+var NorthwesternLeague				= {"type": 'FeatureCollection', "features": []}
+
+function addGeoJSONTeamsToLeagues (geoJSONTeam, league) {
+	switch (league) {
+		case "Alabama-Tennessee League":		AlabamaTennesseeLeague.features.push(geoJSONTeam); 			break;					
+		case "AmericanLeague": 					AmericanLeague.features.push(geoJSONTeam); 					break;
+		case "American Association": 			AmericanAssociation.features.push(geoJSONTeam); 			break;				
+		case "CaliforniaLeague":				CaliforniaLeague.features.push(geoJSONTeam); 				break;
+		case "Eastern League": 					EasternLeague.features.push(geoJSONTeam); 					break;
+		case "Illinois-Indiana-Iowa League": 	IllinoisIndianaIowaLeague.features.push(geoJSONTeam); 		break;
+		case "Illinois State League": 			IllinoisStateLeague.features.push(geoJSONTeam); 			break;
+		case "InternationalAssociation": 		InternationalAssociation.features.push(geoJSONTeam); 		break;
+		case "International League": 			InternationalLeague.features.push(geoJSONTeam);				break;
+		case "InterstateAssociation": 			InterstateAssociation.features.push(geoJSONTeam); 			break;	
+		case "Midwest League": 					MidwestLeague.features.push(geoJSONTeam); 					break;	
+		case "Mississippi-Ohio Valley League": 	MississippiOhioValleyLeague.features.push(geoJSONTeam); 	break;		
+		case "NationalAssociation": 			NationalAssociation.features.push(geoJSONTeam); 			break;
+		case "NationalLeague": 					NationalLeague.features.push(geoJSONTeam); 					break;
+		case "NorthwesternLeague":				NorthwesternLeague.features.push(geoJSONTeam); 				break;	
+		case "PacificCoastLeague": 				PacificCoastLeague.features.push(geoJSONTeam); 				break;
+		case "PacificCoastInternationalLeague":	PacificCoastInternationalLeague.features.push(geoJSONTeam); break;	
+		case "Players League": 					PlayersLeague.features.push(geoJSONTeam);					break;
+		case "South Atlantic League":			SouthAtlanticLeague.features.push(geoJSONTeam); 			break;	
+		case "TexasLeague":						TexasLeague.features.push(geoJSONTeam); 					break;		
+		case "WesternLeague": 					WesternLeague.features.push(geoJSONTeam); 					break;		
+		}}
+
+
+function convertTeamToGeoJSON(team, nameArray, leagueArray, coordArray){
+	let latlng 		= 	[coordArray[0][1], coordArray[0][0]];
+	let nameStart 	= 	cleanDates(nameArray[1], 	"start");
+	let nameEnd 	= 	cleanDates(nameArray[2], 	"end");
+	let leagueStart =	cleanDates(leagueArray[1], 	"start");
+	let leagueEnd 	= 	cleanDates(leagueArray[2], 	"end");
+	let coordStart 	= 	cleanDates(coordArray[1], 	"start");
+	let coordEnd 	= 	cleanDates(coordArray[2], 	"end");
+	startTime		= 	Math.max(nameStart,leagueStart,coordStart);
+	endTime 		= 	Math.min(nameEnd,leagueEnd,coordEnd);
+	let geoJSONteam = { 
+		"type": "Feature",
+	    "properties": 	{"start": startTime, "end": endTime, "name": nameArray[0]},
+		"geometry" : 	{"coordinates" : latlng, "type": "Point"}} 
+	addGeoJSONTeamsToLeagues(geoJSONteam, leagueArray[0]);
+	return geoJSONteam;
+}
+
+function cleanDates (time, type) {
+	if (type == "start") {
+		if (time.length == 4) 
+			{return Date.parse(time.concat("-01-01"))};
+		return Date.parse(time)}
+	if (type == "end") {
+		if (time.length == 4) 
+			{return Date.parse(time.concat("-12-31"))};
+		if (time == "now") 
+			{return Date.parse("2025-12-31")};
+		return Date.parse(time) }
+	else 	{return Date.parse(time)}}
+	
+
+function drawCoordMovingLines(latlon1, latlon2, time, league, nextleague, name){ //nextleague can be the same as league
+	let movingLine = 	
+		{ "type": "LineString",
+	     "properties": {
+			"start": time,
+			"end": time,
+			"decoration": "arrow"
+			}, 
+		"coordinates": [[latlon1[1], latlon1[0]],[latlon2[1], latlon2[0]]]
+		}
+	addGeoJSONTeamsToLeagues(movingLine, league);			//line goes with the departing league
+	//let nameArray = [name, time, time]
+	//let leagueArray = [nextleague, time, time]
+	//let coordArray = [latlon2, time, time]
+	//console.log(nameArray, leagueArray, coordArray);
+	//convertTeamToGeoJSON("brett", nameArray, leagueArray, coordArray);
+	let geoJSONteam = { 
+		"type": "Feature",
+	    "properties": 	{"start": time, "end": time, "name": name},
+		"geometry" : 	{"coordinates" : [latlon2[1], latlon2[0]], "type": "Point"}} 
+	//console.log(geoJSONteam, nextleague);
+	addGeoJSONTeamsToLeagues(geoJSONteam, nextleague);		//but the extra marker goes with the joining league
+}
+
+function getDetailColor(colorIcon) {
+			switch (colorIcon) {
+				case ALIcon: 			return 	{color: "#404040"};
+				case NLIcon: 			return 	{color: "#404040"};
+				case NorthwoodsIcon: 	return 	{color: "#458F5C"};
+				case redIcon: 			return 	{color: "#a32929"}; 
+				case orangeIcon: 		return 	{color: "#F5A327"}; 
+				case greenIcon: 		return 	{color: "#34D966"}; 
+				case darkgreenIcon:	 	return 	{color: "#458F5C"}; 
+				case goldIcon: 			return 	{color: "#F7D939"}; 
+				case greyIcon: 			return 	{color: "#C4C4C4"}; 
+				case blackIcon: 		return 	{color: "#404040"}; 
+				case pinkIcon: 			return 	{color: "#ED6DB7"}; 
+				case violetIcon: 		return 	{color: "#A55DF0"};
+				case blueIcon: 			return 	{color: "#5D67F0"}; 
+				case yellowIcon: 		return 	{color: "#E3DD4B"}; 
+				case aquamarineIcon: 	return 	{color: "#65E0C9"}; }}
+
+
+var blankStyle = {
+    "color": "",
+    "weight": 0,
+    "opacity": 0
+};
+
+
+function addTeamToMap(team, ballIcon){
+	teamTimeline = L.timeline(team, {
+			style:  function (feature, layer) {;
+				if (feature.geometry.properties.decoration == "leaguetext") {return blankStyle};
+				return getDetailColor(ballIcon)
+				}, 
+				
+				//blankStyle,
+			onEachFeature: function (feature, layer) {
+					if (feature.properties.decoration == "arrow") {
+						layer.setText('► ', {repeat: true, offset: 4, attributes: {} })};
+					if (feature.properties.decoration == "leaguetext") {
+						layer.setText(feature.properties.league, {orientation: 180, center: true, attributes: { 'font-size': '35px', fill: "#34D966"} })} //get a Western League image and put it over the coords instead?
+													},
+				pointToLayer : function(feature, latlng) {
+							if (feature.properties.marker) {
+								return L.marker(latlng, {icon:feature.properties.marker}).setZIndexOffset(1000)}
+														
+							return L.marker(latlng, {icon:ballIcon}).bindPopup(feature.properties.name)}
+							}		
+							
+							)
+	teamTimeline.addTo(map);
+	timelineControl.addTimelines(teamTimeline);
+	}
+
+
+//make teams go defunct on december 30th?
+
+
+function createEndMarker(endMarker, endCoords, endDate, endLeague){
+	let geoJSONEndMarker = { 
+		"type": "Feature",
+	    "properties": 	{"start": endDate, "end": endDate, "name": "", marker: endMarker},
+		"geometry" : 	{"coordinates" : [endCoords[0][1], endCoords[0][0]], "type": "Point"}}
+	addGeoJSONTeamsToLeagues(geoJSONEndMarker, endLeague[0]);
+	}
+
+
+
+
+function loadTeams(teamFile){
+	//console.log(teamFile);
+	teamCount = teamFile.teams.length;
+	teamIncrement = 0
+	while (teamIncrement < teamCount) {
+		currentTeam 	= 	teamFile.teams[teamIncrement];
+		nameIncrement 	= 	0; 
+		leagueIncrement = 	0;
+		coordIncrement	=	0;
+		nameCount 		= 	currentTeam.names.length;
+		leagueCount		= 	currentTeam.leagues.length;
+		coordCount 		= 	currentTeam.coords.length;
+		while (	(nameIncrement 		< nameCount) 		&&  //while we're not on the last name 
+				(leagueIncrement 	< leagueCount) 		&&  //AND not on the last league
+				(coordIncrement 	< coordCount)		){	//AND not on the last coord for this team
+			currentName 			= 	currentTeam.names[nameIncrement];
+			currentLeague 			= 	currentTeam.leagues[leagueIncrement];
+			currentCoord 			= 	currentTeam.coords[coordIncrement];
+			currentNameEndTime		= 	cleanDates(currentName[2], 		"end");
+			currentLeagueEndTime	= 	cleanDates(currentLeague[2], 	"end");
+			currentCoordEndTime		= 	cleanDates(currentCoord[2], 	"end");
+			convertedTeam 	= convertTeamToGeoJSON(currentTeam, currentName, currentLeague, currentCoord);
+			if ((currentNameEndTime < currentLeagueEndTime) && 		//if NAME ends before LEAGUE and COORD
+				(currentNameEndTime < currentCoordEndTime)) {
+				nameIncrement 	= nameIncrement 	+ 1;
+					continue;}
+			if ((currentLeagueEndTime < currentNameEndTime) && 		//if LEAGUE ends before NAME and COORD	
+				(currentLeagueEndTime < currentCoordEndTime)) {
+				leagueIncrement = leagueIncrement 	+ 1;		
+					continue;}
+			if ((currentCoordEndTime < currentNameEndTime) && 		//if COORD ends before NAME and LEAGUE
+				(currentCoordEndTime < currentLeagueEndTime)) {
+				if (coordIncrement+1 != coordCount) {
+					drawCoordMovingLines(	currentTeam.coords[coordIncrement][0],   	//currentcoord
+											currentTeam.coords[coordIncrement+1][0], 	//coord of the next location
+											currentCoordEndTime, 						//when the coord changes
+											currentLeague[0], 							//current league (so we know which array to dump the line into)
+											currentLeague[0],							//if the league is changing, the next league. (to generate the double point for a move) otherwise, current league
+											currentName[0]);}
+				coordIncrement 	= coordIncrement 	+ 1;		
+					continue;}
+			if ((currentLeagueEndTime < currentCoordEndTime) && 	//if NAME and LEAGUE end before COORD
+				(currentNameEndTime == currentLeagueEndTime)) {
+				nameIncrement 	= nameIncrement 	+ 1;	
+				leagueIncrement = leagueIncrement 	+ 1;
+					continue;}	
+			if ((currentNameEndTime < currentLeagueEndTime) && 		//if NAME and COORD end before LEAGUE
+				(currentCoordEndTime == currentNameEndTime)) {
+				if (coordIncrement+1 != coordCount) {
+					drawCoordMovingLines(	currentTeam.coords[coordIncrement][0], 
+											currentTeam.coords[coordIncrement+1][0], 
+											currentCoordEndTime, 
+											currentLeague[0], 
+											currentLeague[0],
+											currentTeam.names[nameIncrement+1][0]);}
+				coordIncrement 	= coordIncrement 	+ 1;	
+				nameIncrement 	= nameIncrement 	+ 1;
+					continue;}		
+			if ((currentCoordEndTime < currentNameEndTime) && 		//if COORD and LEAGUE end before NAME
+				(currentLeagueEndTime == currentCoordEndTime)) {
+				if (coordIncrement+1 != coordCount) {
+					drawCoordMovingLines(	currentTeam.coords[coordIncrement][0], 
+											currentTeam.coords[coordIncrement+1][0], 
+											currentCoordEndTime, 
+											currentLeague[0], 
+											currentTeam.leagues[leagueIncrement+1],
+											currentName[0]);}
+				coordIncrement 	= coordIncrement 	+ 1;	
+				leagueIncrement = leagueIncrement 	+ 1;
+					continue;}				
+			if ((currentCoordEndTime == currentNameEndTime) && 		//if all end on same date
+				(currentCoordEndTime == currentLeagueEndTime)) {
+				if (coordIncrement+1 != coordCount) {				
+					drawCoordMovingLines(	currentTeam.coords[coordIncrement][0], 
+											currentTeam.coords[coordIncrement+1][0], 
+											currentCoordEndTime, 
+											currentLeague[0], 
+											currentTeam.leagues[leagueIncrement+1][0],
+											currentTeam.names[nameIncrement+1][0]);}
+				if ((coordIncrement+1 == coordCount) && (currentCoord[2] != "now")) {
+					//console.log("this if statement works");
+					createEndMarker(defunctIcon, currentCoord, currentCoordEndTime, currentLeague)}
+				coordIncrement 	= coordIncrement 	+ 1;	
+				nameIncrement 	= nameIncrement 	+ 1;
+				leagueIncrement = leagueIncrement 	+ 1;
+					continue;}
+			}
+		teamIncrement = teamIncrement + 1;
+		}
+	
+	
+
+}	
+
+
+
+loadTeams(NLandALteams);
+loadTeams(westernleague1894);
+loadTeams(pacificcoastleague);
+loadTeams(alabamatennesseeleague);
+loadTeams(midwestleague) //also contains the predecessor leagues Illinois State League and Mississippi-Ohio Valley League
+loadTeams(internationalleague)
+loadTeams(playersleague)
+loadTeams(americanassociation)
+
+
+
+//some code here to analyze the league arrays and make the map league names
+//console.log(PlayersLeague);
+
+//these are camelcased and refer to the ARRAY
+//lowercase refers to the JSON file
+addTeamToMap(NationalLeague, NLIcon); 
+addTeamToMap(AmericanLeague, ALIcon);
+addTeamToMap(InternationalLeague, redIcon);
+addTeamToMap(InternationalAssociation, pinkIcon);
+addTeamToMap(AmericanAssociation, orangeIcon);
+addTeamToMap(WesternLeague, greenIcon);
+addTeamToMap(EasternLeague, goldIcon);
+addTeamToMap(NationalAssociation, blueIcon);
+addTeamToMap(NationalBaseBallAssociation, yellowIcon);
+addTeamToMap(InterstateAssociation, violetIcon);	
+addTeamToMap(PacificCoastLeague, goldIcon);	
+addTeamToMap(CaliforniaLeague, blueIcon);		
+addTeamToMap(NorthwesternLeague, darkgreenIcon);	
+addTeamToMap(TexasLeague, orangeIcon);	
+addTeamToMap(AlabamaTennesseeLeague, orangeIcon);
+addTeamToMap(PacificCoastInternationalLeague, aquamarineIcon);		
+addTeamToMap(IllinoisStateLeague, greyIcon);	
+addTeamToMap(MississippiOhioValleyLeague, greyIcon);	
+addTeamToMap(MidwestLeague, greyIcon);	
+addTeamToMap(IllinoisIndianaIowaLeague, violetIcon);		
+addTeamToMap(SouthAtlanticLeague, violetIcon);
+addTeamToMap(PlayersLeague, blackIcon);
+
+
+//addFileToMap(greatcentralleague1994, redIcon);
+//addFileToMap(midamericaleague1995, greenIcon);
+//addFileToMap(northcentralleague19941995, yellowIcon);
+//addFileToMap(prairieleague19951997, aquamarineIcon);
+//addFileToMap(heartlandleague19961998, redIcon);
+//addFileToMap(bigsouthleague19961997, orangeIcon);
+//addFileToMap(atlanticcoastleague1995, violetIcon);
+//addFileToMap(northatlanticleague19951996, greyIcon);
+//addFileToMap(northwoodsleague1994now, NorthwoodsIcon);
+//addFileToMap(northernleague19932010, blueIcon);
+//addFileToMap(allamericanassociation2001, greyIcon);
+//addFileToMap(frontierleague1993now, goldIcon);
+//addFileToMap(southcoastleague2007, redIcon);
+//addFileToMap(nationalleague1876now, NLIcon);
+//addFileToMap(notableBirths);
+
+timelineControl.addTo(map);
+
+
+</script> </body> </html>

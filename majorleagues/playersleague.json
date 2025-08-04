@@ -1,0 +1,105 @@
+playersleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Brooklyn Ward's Wonders", "1890", "1890"]
+						],
+			"leagues" : [
+				["Players League", "1890", "1890"]
+						],
+			"coords": 	[
+				[[40.67, -73.902778], "1890", "1890"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["New York Giants", "1890", "1890"]
+						],
+			"leagues" : [
+				["Players League", "1890", "1890"]
+						],
+			"coords": 	[
+				[[40.831667, -73.937222], "1890", "1890"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Chicago Pirates", "1890", "1890"]
+						],
+			"leagues" : [
+				["Players League", "1890", "1890"]
+						],
+			"coords": 	[
+				[[41.824444, -87.632778], "1890", "1890"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Pittsburgh Burghers", "1890", "1890"]
+						],
+			"leagues" : [
+				["Players League", "1890", "1890"]
+						],
+			"coords": 	[
+				[[40.446944, -80.010833], "1890", "1890"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Cleveland Infants", "1890", "1890"]
+						],
+			"leagues" : [
+				["Players League", "1890", "1890"]
+						],
+			"coords": 	[
+				[[41.483056, -81.649167], "1890", "1890"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Buffalo Bisons", "1890", "1890"]
+						],
+			"leagues" : [
+				["Players League", "1890", "1890"]
+						],
+			"coords": 	[
+				[[42.914722, -78.861111], "1890", "1890"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Boston Reds", "1890", "1891"]
+						],
+			"leagues" : [
+				["Players League", "1890", "1890"],
+				["American Association", "1891", "1891"]
+						],
+			"coords": 	[
+				[[42.351389, -71.046944], "1890", "1891"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Philadelphia Athletics", "1890", "1891"]
+						],
+			"leagues" : [
+				["Players League", "1890", "1890"],
+				["American Association", "1891", "1891"]
+						],
+			"coords": 	[
+				[[39.988611, -75.154444], "1890", "1890"],
+				[[39.978056, -75.176389], "1891", "1891"]
+						]
+		}
+	]
+}
+	

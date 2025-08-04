@@ -1,0 +1,210 @@
+americanassociation = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Philadelphia Athletics", "1882", "1890"]
+						],
+			"leagues" : [
+				["American Association", "1882", "1890"]
+						],
+			"coords": 	[
+				[[39.9925, -75.150278], "1882", "1882"],
+				[[39.978056, -75.176389], "1883", "1890"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Columbus Buckeyes", "1883", "1884"]
+						],
+			"leagues" : [
+				["American Association", "1883", "1884"]
+						],
+			"coords": 	[
+				[[39.945278, -82.989444], "1883", "1884"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["New York Metropolitans", "1880", "1887"]
+						],
+			"leagues" : [
+				["American Association", "1880", "1887"]
+						],
+			"coords": 	[
+				[[40.798056, -73.950556], "1883", "1883"],
+				[[40.7907, -73.938], "1884", "1884"],
+				[[40.798056, -73.950556], "1885", "1885"],
+				[[40.644167, -74.075278], "1886", "1887"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Indianapolis Hoosiers", "1884", "1884"]
+						],
+			"leagues" : [
+				["American Association", "1884", "1884"]
+						],
+			"coords": 	[
+				[[39.788889, -86.162222], "1884", "1884"]
+
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Richmond Virginians", "1884", "1884"]
+						],
+			"leagues" : [
+				["American Association", "1884", "1884"]
+						],
+			"coords": 	[
+				[[37.55384, -77.46012], "1884", "1884"]
+
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Toledo Blue Stockings", "1884", "1884"]
+						],
+			"leagues" : [
+				["American Association", "1884", "1884"]
+						],
+			"coords": 	[
+				[[41.653611, -83.545556], "1884", "1884"]
+
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Washington Nationals", "1884", "1884"]
+						],
+			"leagues" : [
+				["American Association", "1884", "1884"]
+						],
+			"coords": 	[
+				[[38.914778, -77.024361], "1884", "1884"]
+
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Kansas City Cowboys", "1888", "1889"]
+						],
+			"leagues" : [
+				["American Association", "1888", "1889"]
+						],
+			"coords": 	[
+				[[39.095556, -94.549722], "1888", "1889"]
+
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Columbus Solons", "1889", "1891"]
+						],
+			"leagues" : [
+				["American Association", "1889", "1891"]
+						],
+			"coords": 	[
+				[[39.956389, -82.981667], "1889", "1891"]
+
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Brooklyn Gladiators", "1890", "1890-07-26"]
+						],
+			"leagues" : [
+				["American Association", "1890", "1890-07-26"]
+						],
+			"coords": 	[
+				[[40.694769, -73.905839], "1890", "1890-07-26"]
+
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Rochester Broncos", "1889", "1890"],
+				["Rochester Hop Bitters", "1891", "1891"],
+						],
+			"leagues" : [
+				["International Association", "1889", "1889"],
+				["American Association", "1890", "1890"],
+				["Eastern Association", "1891", "1891"]
+						],
+			"coords": 	[
+				[[43.155, -77.576667], "1889", "1891"]
+
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Syracuse Stars", "1885", "1890"]
+						],
+			"leagues" : [
+				["New York State League", "1885", "1885"],
+				["International League", "1886", "1887"],
+				["International Association", "1888", "1889"],
+				["American Association", "1890", "1890"]
+						],
+			"coords": 	[
+				[[43.03958, -76.1503], "1889", "1891"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Toledo Maumees", "1888", "1890"]
+						],
+			"leagues" : [
+				["Tri-State League", "1888", "1888"],
+				["International Association", "1889", "1889"],
+				["American Association", "1890", "1890"]
+						],
+			"coords": 	[
+				[[41.668889, -83.543889], "1888", "1890"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Cincinnati Kelly's Killers", "1891", "1891"]
+						],
+			"leagues" : [
+				["American Association", "1891", "1891"]
+						],
+			"coords": 	[
+				[[39.118056, -84.446667], "1891", "1891"]
+
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Cincinnati Kelly's Killers", "1886", "1892"]
+						],
+			"leagues" : [
+				["Northwestern League", "1886", "1887"],
+				["Western Association", "1888", "1890"],
+				["American Association", "1891", "1891"],
+				["Western League", "1892", "1892"]
+						],
+			"coords": 	[
+				[[43.074, -87.9205], "1886", "1892"]
+						]
+		}
+	]
+}
+	

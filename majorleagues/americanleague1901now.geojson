@@ -1,0 +1,74 @@
+americanleague1901now = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Detroit Tigers", "1901", "now"]],
+		"fate": "",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[42.332222, -83.068056], "1901", "1911"],
+			[[42.331944, -83.068889], "1912", "1999"],
+			[[42.339167, -83.048611], "2000", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Baltimore Orioles", "1901", "1902"]],
+		"fate": "defunct",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[39.322778, -76.610278], "1901", "1902"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["Boston Americans", "1901", "1907"],
+			["Boston Red Sox", "1908", "now"]],
+		"fate": "",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[42.338972, -71.088972], "1901", "1911"],
+			[[42.34625, -71.09775], "1912", "now"]
+        ]
+      }
+	},
+	{ "type": "Feature",
+      "properties": {
+		"type": "team",
+		"names": [
+			["New York Highlanders", "1903", "1912"],
+			["New York Yankees", "1913", "now"]],
+		"fate": "",
+		"fatetxt": "" },
+      "geometry": {
+		"coordinates" : [0,0],
+		"type": "Point",
+        "coords": [
+			[[40.840556, -73.942222], "1903", "1912"],
+			[[40.831667, -73.934222], "1913", "1922"],
+			[[40.826944, -73.928056], "1923", "2008"],
+			[[40.829167, -73.926389], "2009", "now"]
+        ]
+      }
+	}
+
+  ]
+}

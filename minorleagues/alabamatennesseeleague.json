@@ -1,0 +1,54 @@
+alabamatennesseeleague = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Albany-Decatur Twins", "1921", "1921"]
+						],
+			"leagues" : [
+				["Alabama-Tennessee League", "1921", "1921"]
+						],
+			"coords": 	[
+				[[34.573056, -86.990278], "1921", "1921"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Columbia Mules", "1921", "1921"]
+						],
+			"leagues" : [
+				["Alabama-Tennessee League", "1921", "1921"]
+						],
+			"coords": 	[
+				[[35.615022, -87.044464], "1921", "1921"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Russellville Miners", "1921", "1921"]
+						],
+			"leagues" : [
+				["Alabama-Tennessee League", "1921", "1921"]
+						],
+			"coords": 	[
+				[[34.505556, -87.729167], "1921", "1921"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Tri-Cities Triplets", "1921", "1921"]
+						],
+			"leagues" : [
+				["Alabama-Tennessee League", "1921", "1921"]
+						],
+			"coords": 	[
+				[[34.757019, -87.697703], "1921", "1921"]
+						]
+		}		
+	]
+}
+	

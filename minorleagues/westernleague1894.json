@@ -1,0 +1,74 @@
+westernleague1894 = {
+  "type": "teamCollection",
+  "teams": [
+		{ 
+			"type": "team",
+			"names": 	[
+				["Indianapolis Hoosiers", "1894", "1900"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["WesternLeague", "1894", "1899"],
+				["AmericanLeague", "1900", "1900"]],
+			"coords": 	[
+				[[39.770803, -86.134445], "1894", "1899"],
+				[[39.768333, -86.113333 ], "1900", "1900"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Grand Rapids Rustlers", "1894", "1896"],
+				["Grand Rapids Bob-O-Links", "1897", "1897"],
+				["Omaha Omahogs", "1898", "1898-07-07"],
+				["St. Joseph Saints", "1898-07-08", "1898"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["WesternLeague", "1894", "1898"]
+						],
+			"coords": 	[
+				[[42.935000, -85.660998], "1894", "1897"],
+				[[41.284226, -95.943612], "1898", "1898-07-07"],
+				[[39.758056, -94.836667], "1898-07-08", "1898"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Minneapolis Millers", "1894", "1900"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["WesternLeague", "1894", "1899"],
+				["AmericanLeague", "1900", "1900"]
+						],
+			"coords": 	[
+				[[44.979622, -93.274886], "1894", "1896-06-19"],
+				[[44.9475, -93.278611], "1896-06-20", "1900"]
+						]
+		},
+		{ 
+			"type": "team",
+			"names": 	[
+				["Toledo White Stockings", "1894", "1894"],
+				["Toledo Swamp Angels", "1895", "1895-07-03"],
+				["Terre Haute Hottentots", "1895-07-04", "1895"]
+						],
+			"fate": "defunct",
+			"fatetxt": "",
+			"leagues" : [
+				["WesternLeague", "1894", "1895"]
+						],
+			"coords": 	[
+				[[41.652778, -83.537778], "1894", "1895-07-03"],
+				[[39.469722, -87.389722], "1895-07-04", "1895"]
+						]
+		}
+
+	]
+}
+	

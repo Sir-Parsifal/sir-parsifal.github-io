@@ -1,0 +1,83 @@
+allamericanassociation2001 = {
+  "type": "FeatureCollection",
+  "features": [
+	{ "type": "Feature",
+      "properties": {
+		"start": "2001-01-01",
+		"end": "2001-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Baton Rouge Blue Marlins",
+		"fate": "newleague",
+		"fatetxt": "The Baton Rouge Blue Marlins moved to the Southeastern League after the 2001 season."},
+      "geometry": {
+        "coordinates": [ -91.1721, 30.4588],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2001-01-01",
+		"end": "2001-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Montgomery Wings",
+		"fate": "newleague",
+		"fatetxt": "The Montgomery Wings moved to the Southeastern League after the 2001 season."},
+      "geometry": {
+        "coordinates": [ -86.291353, 32.382127],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2001-01-01",
+		"end": "2001-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Albany Alligators",
+		"fate": "defunct",
+		"fatetxt": "The Albany Alligators folded after the 2001 season."},
+      "geometry": {
+        "coordinates": [ -84.165556, 31.582222],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2001-01-01",
+		"end": "2001-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Tyler Roughnecks",
+		"fate": "newleague",
+		"fatetxt": "The Tyler Roughnecks moved to Jackson, MS and the Central Baseball League after the 2001 season."},
+      "geometry": {
+        "coordinates": [  -95.301111, 32.351389],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2001-01-01",
+		"end": "2001-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Fort Worth Cats",
+		"fate": "newleague",
+		"fatetxt": "The Fort Worth Cats moved to the Central Baseball League after the 2001 season."},
+      "geometry": {
+        "coordinates": [ -97.289, 32.669],
+        "type": "Point"}
+    },
+	{ "type": "Feature",
+      "properties": {
+		"start": "2001-01-01",
+		"end": "2001-12-31",
+		"info": "",
+		"type": "team",
+		"name": "Tennessee T's",
+		"fate": "defunct",
+		"fatetxt": "The Tennessee T's folded after the 2001 season."},
+      "geometry": {
+        "coordinates": [ -86.1125, 35.188333],
+        "type": "Point"}
+    }
+  ]
+}
